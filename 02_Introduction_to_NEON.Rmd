@@ -393,8 +393,9 @@ to GitHub, move over to the command line or Atom.io and add it to your
 `.gitignore` file:
 
 ```{r}
-knitr::include_graphics('./docs/images/git_ignore.png')
+knitr::include_graphics("./docs/images/git_ignore.png")
 ```
+
 
 Now, whenever you want to pull NEON data via the API, at the start of
 any analysis you would place this line of code:
@@ -514,7 +515,7 @@ to the function are:
 -   package: basic or expanded; we'll begin with a `basic` here
 
 ```{r, echo=FALSE}
-source('/Users/rohan/Environmental-Informatics-Using-Research-Infrastructures-and-their-Data/neon_token_source.R')
+source('neon_token_source.R')
 ```
 
 ```{r, cache=TRUE}
