@@ -357,7 +357,7 @@ sprintf("AppEEARS currently supports %i products." ,length(products))
 ```
 
 ```
-## [1] "AppEEARS currently supports 164 products."
+## [1] "AppEEARS currently supports 165 products."
 ```
 
 Next, look at the product's names and descriptions. Below, the 'ProductAndVersion' and 'Description' are printed for all products.
@@ -533,6 +533,7 @@ for (p in products){
 ## [1] "ECO_L1B_GEO.002 is Geolocation from LP DAAC"
 ## [1] "ECO_L2_CLOUD.002 is Cloud Mask Instantaneous from LP DAAC"
 ## [1] "ECO_L2_LSTE.002 is Swath Land Surface Temperature and Emissivity Instantaneous from LP DAAC"
+## [1] "ECO_L2T_LSTE.002 is Land Surface Temperature and Emissivity from LP DAAC"
 ## [1] "HLSS30.020 is Land Surface Reflectance from LP DAAC"
 ## [1] "HLSL30.020 is Land Surface Reflectance from LP DAAC"
 ```

@@ -631,16 +631,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="8.31.1" data-path="usgs-national-water-information-system-nwis.html"><a href="usgs-national-water-information-system-nwis.html#usgs-nwis-culmination-write-up"><i class="fa fa-check"></i><b>8.31.1</b> USGS NWIS Culmination Write Up</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="" data-path="frequently-asked-questions.html"><a href="frequently-asked-questions.html"><i class="fa fa-check"></i>Frequently Asked Questions:</a>
-<ul>
-<li class="chapter" data-level="8.32" data-path="frequently-asked-questions.html"><a href="frequently-asked-questions.html#where-can-i-find-due-dates-for-assignments"><i class="fa fa-check"></i><b>8.32</b> Where can I find due dates for assignments?</a></li>
-<li class="chapter" data-level="8.33" data-path="frequently-asked-questions.html"><a href="frequently-asked-questions.html#how-do-i-submit-assignments"><i class="fa fa-check"></i><b>8.33</b> How do I submit assignments?</a></li>
-<li class="chapter" data-level="8.34" data-path="frequently-asked-questions.html"><a href="frequently-asked-questions.html#do-i-still-have-to-submit-written-exercises-as-.rmd-and-.pdf"><i class="fa fa-check"></i><b>8.34</b> Do I still have to submit written exercises as .Rmd and .pdf?</a></li>
-<li class="chapter" data-level="8.35" data-path="frequently-asked-questions.html"><a href="frequently-asked-questions.html#whats-better-for-code-conciseness-or-readability"><i class="fa fa-check"></i><b>8.35</b> What’s better for code, conciseness or readability?</a></li>
-<li class="chapter" data-level="8.36" data-path="frequently-asked-questions.html"><a href="frequently-asked-questions.html#how-find-i-find-resources-to-navigate-the-neon-data-portal"><i class="fa fa-check"></i><b>8.36</b> How find I find resources to navigate the NEON Data Portal?</a></li>
-<li class="chapter" data-level="8.37" data-path="frequently-asked-questions.html"><a href="frequently-asked-questions.html#how-can-i-best-prepare-for-class-and-succeed"><i class="fa fa-check"></i><b>8.37</b> How can I best prepare for class and succeed?</a></li>
-</ul></li>
-<li class="chapter" data-level="9" data-path="fall-2020-ignite-session.html"><a href="fall-2020-ignite-session.html"><i class="fa fa-check"></i><b>9</b> Fall 2020 IGNITE Session</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rdboone/katharynduffy.github.io" target="blank">Published with bookdown</a></li>
 
@@ -3947,7 +3937,7 @@ download all available averaging intervals.</p>
 ## Merged the most recent publication of sensor position files for each site and saved to /stackedFiles
 ## Copied the most recent publication of variable definition file to /stackedFiles
 ## Finished: Stacked 1 data tables and 3 metadata tables!
-## Stacking took 0.3364489 secs</code></pre>
+## Stacking took 0.310096 secs</code></pre>
 <p><code>pr</code> is another named list, and again, metadata and units can be found
 in the <code>variables</code> table. The <code>PARPAR_30min</code> table contains a
 <code>verticalPosition</code> field. This field indicates the position on the
@@ -15879,7 +15869,7 @@ create it if not</p>
   |                                                                      |   0%
   |                                                                            
   |======================================================================| 100%
-## 1 files successfully downloaded to C:\Users\rohan\AppData\Local\Temp\Rtmpk7JqnG/filesToStack00200
+## 1 files successfully downloaded to C:\Users\rohan\AppData\Local\Temp\RtmpSiNY6n/filesToStack00200
 ## Finding available files
 ## 
   |                                                                            
@@ -15894,7 +15884,7 @@ create it if not</p>
   |                                                                      |   0%
   |                                                                            
   |======================================================================| 100%
-## 1 files successfully downloaded to C:\Users\rohan\AppData\Local\Temp\Rtmpk7JqnG/filesToStack00200
+## 1 files successfully downloaded to C:\Users\rohan\AppData\Local\Temp\RtmpSiNY6n/filesToStack00200
 ## Finding available files
 ## 
   |                                                                            
@@ -15909,7 +15899,7 @@ create it if not</p>
   |                                                                      |   0%
   |                                                                            
   |======================================================================| 100%
-## 1 files successfully downloaded to C:\Users\rohan\AppData\Local\Temp\Rtmpk7JqnG/filesToStack00200</code></pre>
+## 1 files successfully downloaded to C:\Users\rohan\AppData\Local\Temp\RtmpSiNY6n/filesToStack00200</code></pre>
 <p>Add names to list for year/month combinations</p>
 <div class="sourceCode" id="cb435"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb435-1"><a href="flux-measurements-inter-operability.html#cb435-1" aria-hidden="true" tabindex="-1"></a><span class="fu">names</span>(dataList) <span class="ot">&lt;-</span> <span class="fu">paste0</span>(lubridate<span class="sc">::</span><span class="fu">year</span>(setDate),<span class="fu">sprintf</span>(<span class="st">&quot;%02d&quot;</span>,lubridate<span class="sc">::</span><span class="fu">month</span>(setDate)))</span></code></pre></div>
 <p>Remove NULL elements from list</p>
@@ -16015,8 +16005,8 @@ memory</p>
 <span id="cb445-2"><a href="flux-measurements-inter-operability.html#cb445-2" aria-hidden="true" tabindex="-1"></a>    <span class="fu">rm</span>(<span class="at">list=</span><span class="fu">c</span>(<span class="st">&quot;dataListFlux&quot;</span>,<span class="st">&quot;dataList&quot;</span>))</span>
 <span id="cb445-3"><a href="flux-measurements-inter-operability.html#cb445-3" aria-hidden="true" tabindex="-1"></a>    <span class="fu">gc</span>()</span></code></pre></div>
 <pre><code>##            used  (Mb) gc trigger  (Mb) max used  (Mb)
-## Ncells  1494506  79.9    3173295 169.5  3173295 169.5
-## Vcells 16220596 123.8   72272739 551.4 75217259 573.9</code></pre>
+## Ncells  1494506  79.9    3173530 169.5  3173530 169.5
+## Vcells 16220595 123.8   72272735 551.4 75217313 573.9</code></pre>
 <p>Regularize timeseries to 30 minutes in case timestamps are missing from
 NEON files due to processing errors</p>
 <div class="sourceCode" id="cb447"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb447-1"><a href="flux-measurements-inter-operability.html#cb447-1" aria-hidden="true" tabindex="-1"></a>    timeRglr <span class="ot">&lt;-</span> eddy4R.base<span class="sc">::</span><span class="fu">def.rglr</span>(<span class="at">timeMeas =</span> <span class="fu">as.POSIXlt</span>(dataDfFlux<span class="sc">$</span>TIMESTAMP_START), <span class="at">dataMeas =</span> dataDfFlux, <span class="at">BgnRglr =</span> <span class="fu">as.POSIXlt</span>(dataDfFlux<span class="sc">$</span>TIMESTAMP_START[<span class="dv">1</span>]), <span class="at">EndRglr =</span> <span class="fu">as.POSIXlt</span>(dataDfFlux<span class="sc">$</span>TIMESTAMP_END[<span class="fu">length</span>(dataDfFlux<span class="sc">$</span>TIMESTAMP_END)]), <span class="at">TzRglr =</span> <span class="st">&quot;UTC&quot;</span>, <span class="at">FreqRglr =</span> <span class="dv">1</span><span class="sc">/</span>(<span class="dv">60</span><span class="sc">*</span><span class="dv">30</span>))</span>
@@ -16237,8 +16227,8 @@ values with -9999</p>
 <div class="sourceCode" id="cb457"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb457-1"><a href="flux-measurements-inter-operability.html#cb457-1" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rm</span>(<span class="at">list=</span><span class="st">&quot;dataDfFlux&quot;</span>)</span>
 <span id="cb457-2"><a href="flux-measurements-inter-operability.html#cb457-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">gc</span>()</span></code></pre></div>
 <pre><code>##            used  (Mb) gc trigger  (Mb) max used  (Mb)
-## Ncells  1496962  80.0    3173295 169.5  3173295 169.5
-## Vcells 16294739 124.4   57818192 441.2 75217259 573.9</code></pre>
+## Ncells  1496962  80.0    3173530 169.5  3173530 169.5
+## Vcells 16294738 124.4   57818188 441.2 75217313 573.9</code></pre>
 <pre><code>##  [1] TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE</code></pre>
 </div>
 </div>

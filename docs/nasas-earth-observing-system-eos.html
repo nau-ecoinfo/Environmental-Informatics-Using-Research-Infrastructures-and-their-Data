@@ -631,16 +631,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="8.31.1" data-path="usgs-national-water-information-system-nwis.html"><a href="usgs-national-water-information-system-nwis.html#usgs-nwis-culmination-write-up"><i class="fa fa-check"></i><b>8.31.1</b> USGS NWIS Culmination Write Up</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="" data-path="frequently-asked-questions.html"><a href="frequently-asked-questions.html"><i class="fa fa-check"></i>Frequently Asked Questions:</a>
-<ul>
-<li class="chapter" data-level="8.32" data-path="frequently-asked-questions.html"><a href="frequently-asked-questions.html#where-can-i-find-due-dates-for-assignments"><i class="fa fa-check"></i><b>8.32</b> Where can I find due dates for assignments?</a></li>
-<li class="chapter" data-level="8.33" data-path="frequently-asked-questions.html"><a href="frequently-asked-questions.html#how-do-i-submit-assignments"><i class="fa fa-check"></i><b>8.33</b> How do I submit assignments?</a></li>
-<li class="chapter" data-level="8.34" data-path="frequently-asked-questions.html"><a href="frequently-asked-questions.html#do-i-still-have-to-submit-written-exercises-as-.rmd-and-.pdf"><i class="fa fa-check"></i><b>8.34</b> Do I still have to submit written exercises as .Rmd and .pdf?</a></li>
-<li class="chapter" data-level="8.35" data-path="frequently-asked-questions.html"><a href="frequently-asked-questions.html#whats-better-for-code-conciseness-or-readability"><i class="fa fa-check"></i><b>8.35</b> What’s better for code, conciseness or readability?</a></li>
-<li class="chapter" data-level="8.36" data-path="frequently-asked-questions.html"><a href="frequently-asked-questions.html#how-find-i-find-resources-to-navigate-the-neon-data-portal"><i class="fa fa-check"></i><b>8.36</b> How find I find resources to navigate the NEON Data Portal?</a></li>
-<li class="chapter" data-level="8.37" data-path="frequently-asked-questions.html"><a href="frequently-asked-questions.html#how-can-i-best-prepare-for-class-and-succeed"><i class="fa fa-check"></i><b>8.37</b> How can I best prepare for class and succeed?</a></li>
-</ul></li>
-<li class="chapter" data-level="9" data-path="fall-2020-ignite-session.html"><a href="fall-2020-ignite-session.html"><i class="fa fa-check"></i><b>9</b> Fall 2020 IGNITE Session</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rdboone/katharynduffy.github.io" target="blank">Published with bookdown</a></li>
 
@@ -978,7 +968,7 @@ These tutorials have been tested on Windows and MAC systems using R Version 4.0.
 <span id="cb566-4"><a href="nasas-earth-observing-system-eos.html#cb566-4" aria-hidden="true" tabindex="-1"></a>products <span class="ot">&lt;-</span> <span class="fu">setNames</span>(divided_products,<span class="fu">fromJSON</span>(all_Prods)<span class="sc">$</span>ProductAndVersion)</span>
 <span id="cb566-5"><a href="nasas-earth-observing-system-eos.html#cb566-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Print no. products available in AppEEARS</span></span>
 <span id="cb566-6"><a href="nasas-earth-observing-system-eos.html#cb566-6" aria-hidden="true" tabindex="-1"></a><span class="fu">sprintf</span>(<span class="st">&quot;AppEEARS currently supports %i products.&quot;</span> ,<span class="fu">length</span>(products))   </span></code></pre></div>
-<pre><code>## [1] &quot;AppEEARS currently supports 164 products.&quot;</code></pre>
+<pre><code>## [1] &quot;AppEEARS currently supports 165 products.&quot;</code></pre>
 <p>Next, look at the product’s names and descriptions. Below, the ‘ProductAndVersion’ and ‘Description’ are printed for all products.</p>
 <div class="sourceCode" id="cb568"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb568-1"><a href="nasas-earth-observing-system-eos.html#cb568-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Loop through the products in the list and print the product name and description</span></span>
 <span id="cb568-2"><a href="nasas-earth-observing-system-eos.html#cb568-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (p <span class="cf">in</span> products){                                   </span>
@@ -1146,6 +1136,7 @@ These tutorials have been tested on Windows and MAC systems using R Version 4.0.
 ## [1] &quot;ECO_L1B_GEO.002 is Geolocation from LP DAAC&quot;
 ## [1] &quot;ECO_L2_CLOUD.002 is Cloud Mask Instantaneous from LP DAAC&quot;
 ## [1] &quot;ECO_L2_LSTE.002 is Swath Land Surface Temperature and Emissivity Instantaneous from LP DAAC&quot;
+## [1] &quot;ECO_L2T_LSTE.002 is Land Surface Temperature and Emissivity from LP DAAC&quot;
 ## [1] &quot;HLSS30.020 is Land Surface Reflectance from LP DAAC&quot;
 ## [1] &quot;HLSL30.020 is Land Surface Reflectance from LP DAAC&quot;</code></pre>
 <p>The product service provides many useful details, including if a product is currently available in AppEEARS, a description, and information on the spatial and temporal resolution. Below, the product details are retrieved using ‘ProductAndVersion’.</p>

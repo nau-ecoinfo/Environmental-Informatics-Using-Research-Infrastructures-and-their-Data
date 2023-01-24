@@ -442,10 +442,3 @@ wait-and-email
 putting-it-all-together-mapping-precipitation-from-tropical-storm-colin
 usgs-exercises-part-2
 usgs-nwis-culmination-write-up
-where-can-i-find-due-dates-for-assignments
-how-do-i-submit-assignments
-do-i-still-have-to-submit-written-exercises-as-.rmd-and-.pdf
-whats-better-for-code-conciseness-or-readability
-how-find-i-find-resources-to-navigate-the-neon-data-portal
-how-can-i-best-prepare-for-class-and-succeed
-fall-2020-ignite-session
