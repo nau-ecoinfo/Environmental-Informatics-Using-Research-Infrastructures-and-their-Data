@@ -12,33 +12,33 @@
 
 #### USGS Water Resources Data: The Internet of Water
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/O_FLAAWW1E4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SWg2GTbTiIM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-> 55 minutes
+> 54 minutes
 
-*Jim Kreft*, Product owner, USGS Water Resources Mission
+*Jim Kreft*, Product owner, USGS Water Resources Mission, introduces the USGS Water Resources dashboard, explains how to query location-specific information, and provides a roadmap for new data products. 
 
 #### Accessing Data from the USGS National Water Information System
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SHrn_kvs-IA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/t2eKTntL6y8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-> 1 hour
+> 1 hour, 1 minute
 
-*Dr. Laura DeChico*, Data Manager and R Package Developer, U.S. Geological Survey's Data Science Branch of the Water Resources Mission Area
+*Dr. Laura DeChico*, Data Manager and R Package Developer, U.S. Geological Survey's Data Science Branch of the Water Resources Mission Area, introduces the USGS Water Resources GitHub, and provides in-depth examples of how to access the data in R.
 
 #### USGS National Water Information System: Using the geoknife package
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4FcAI_EOD3w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qToyeD_OJbs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-> 55 minutes
+> 52 minutes
 
-*Dr. Jordan Reed*, Chief, U.S. Geological Survey's Data Science Branch of the Water Resources Mission Area
+*Dr. Jordan Reed*, Chief, U.S. Geological Survey's Data Science Branch of the Water Resources Mission Area, introduces the geoknife package, its interface, and how to use it t oconnect data and resources, including examples in R.
 
 ### Assignments in this chapter
 
-- *USGS Coding Lab* use the USGS `dataRetrieval` R package to analyze data from the 2020 monsoon in Arizona (8.16).
+- *USGS Coding Lab - Just how dry was the 2020 monsoon?* use the USGS `dataRetrieval` R package to analyze data from the 2020 monsoon in Arizona (8.16).
 
-- *USGS Culmination Write Up* Summarize a project you might explore using data from USGS (8.31).INF
+- *USGS Culmination Write Up* Summarize a project you might explore using data from USGS (8.31).
 
 ## USGS Mission:
 
@@ -399,10 +399,10 @@ names(wqpcounts_sc)
 ## [17] "x-content-type-options"    "x-xss-protection"         
 ## [19] "strict-transport-security" "x-cache"                  
 ## [21] "via"                       "x-amz-cf-pop"             
-## [23] "x-amz-cf-id"               "age"
+## [23] "x-amz-cf-id"
 ```
 
-This returns a list with 24 different items, including total number of sites, breakdown of the number of sites by source (BioData, NWIS, STORET), total number of records, and breakdown of records count by source. Let's just look at total number of sites and total number of records.
+This returns a list with 23 different items, including total number of sites, breakdown of the number of sites by source (BioData, NWIS, STORET), total number of records, and breakdown of records count by source. Let's just look at total number of sites and total number of records.
 
 
 ```r
@@ -410,7 +410,7 @@ wqpcounts_sc[['total-site-count']]
 ```
 
 ```
-## [1] 7607
+## [1] 7593
 ```
 
 ```r
@@ -418,10 +418,10 @@ wqpcounts_sc[['total-result-count']]
 ```
 
 ```
-## [1] 4019893
+## [1] 4024244
 ```
 
-This doesn't provide any information about the sites, just the total number. I know that with 4,019,893 results, I will want to add more criteria before trying to download. Let's continue to add query parameters before moving to `whatWQPsites`.
+This doesn't provide any information about the sites, just the total number. I know that with 4,024,244 results, I will want to add more criteria before trying to download. Let's continue to add query parameters before moving to `whatWQPsites`.
 
 
 ```r
@@ -440,10 +440,10 @@ wqpcounts_sc_stream[['total-result-count']]
 ```
 
 ```
-## [1] 2011074
+## [1] 2013151
 ```
 
-2,011,074 results are still a lot to download. Let's add more levels of criteria:
+2,013,151 results are still a lot to download. Let's add more levels of criteria:
 
 
 ```r
@@ -464,10 +464,10 @@ wqpcounts_sc_stream_temp[['total-result-count']]
 ```
 
 ```
-## [1] 148464
+## [1] 148494
 ```
 
-148,464 is little more manageble. We can also easily compare avilable stream temperature and lake temperature data.
+148,494 is little more manageble. We can also easily compare avilable stream temperature and lake temperature data.
 
 
 ```r
@@ -498,7 +498,7 @@ wqpcounts_sc_stream_temp[['total-result-count']]
 ```
 
 ```
-## [1] 148464
+## [1] 148494
 ```
 
 ```r
@@ -506,7 +506,7 @@ wqpcounts_sc_lake_temp[['total-result-count']]
 ```
 
 ```
-## [1] 60822
+## [1] 60954
 ```
 
 From these query results, it looks like South Carolina has much more stream data than it does lake data.
@@ -723,12 +723,12 @@ head(MauiCo_avgdailyQ)
 
 ```
 ##   agency_cd  site_no   dateTime X_00060_00003 X_00060_00003_cd tz_cd
-## 1      USGS 16400000 2022-11-09          9.13                P   UTC
-## 2      USGS 16401000 1929-08-31         18.00                A   UTC
-## 3      USGS 16402000 1957-07-31         51.00                A   UTC
-## 4      USGS 16403000 1957-06-30          5.50                A   UTC
-## 5      USGS 16403600 1970-09-30          2.40                A   UTC
-## 6      USGS 16403900 1996-09-30          1.30                A   UTC
+## 1      USGS 16400000 2023-01-23           3.1                P   UTC
+## 2      USGS 16401000 1929-08-31          18.0                A   UTC
+## 3      USGS 16402000 1957-07-31          51.0                A   UTC
+## 4      USGS 16403000 1957-06-30           5.5                A   UTC
+## 5      USGS 16403600 1970-09-30           2.4                A   UTC
+## 6      USGS 16403900 1996-09-30           1.3                A   UTC
 ```
 
 ```r
@@ -764,7 +764,7 @@ head(MauiHUC8_mindailyT)
 ## 3      USGS 16520000 2004-04-14          17.5                A   UTC
 ## 4      USGS 16527000 2004-01-13          15.4                A   UTC
 ## 5      USGS 16555000 2004-01-13          16.4                A   UTC
-## 6      USGS 16618000 2022-11-09          20.2                P   UTC
+## 6      USGS 16618000 2023-01-23          18.4                P   UTC
 ```
 
 ```r
@@ -803,29 +803,23 @@ names(SaltLake_totalN)
 ##  [7] "tm_datum_rlbty_cd"                   "coll_ent_cd"                        
 ##  [9] "medium_cd"                           "tu_id"                              
 ## [11] "body_part_id"                        "p00004"                             
-## [13] "p00010"                              "p00025"                             
-## [15] "p00041"                              "p00061"                             
-## [17] "p00063"                              "p00065"                             
+## [13] "p00010"                              "p00020"                             
+## [15] "p00025"                              "p00041"                             
+## [17] "p00061"                              "p00065"                             
 ## [19] "p00095"                              "p00098"                             
 ## [21] "p00191"                              "p00300"                             
 ## [23] "p00301"                              "p00400"                             
-## [25] "p00480"                              "p01300"                             
-## [27] "p01305"                              "p01320"                             
-## [29] "p01325"                              "p01330"                             
-## [31] "p01340"                              "p01345"                             
-## [33] "p01350"                              "p30207"                             
-## [35] "p30209"                              "p30211"                             
-## [37] "p32209"                              "p50280"                             
-## [39] "p70305"                              "p71820"                             
-## [41] "p71999"                              "p72012"                             
-## [43] "p72013"                              "p72020"                             
-## [45] "p72104"                              "p72105"                             
-## [47] "p72263"                              "p82398"                             
-## [49] "p84164"                              "p84171"                             
-## [51] "p84182"                              "p99111"                             
-## [53] "p99156"                              "p99206"                             
-## [55] "sample_start_time_datum_cd_reported" "sample_end_time_datum_cd_reported"  
-## [57] "startDateTime"                       "tz_cd"
+## [25] "p30207"                              "p30209"                             
+## [27] "p50015"                              "p50280"                             
+## [29] "p70305"                              "p71999"                             
+## [31] "p72104"                              "p72219"                             
+## [33] "p72220"                              "p72263"                             
+## [35] "p82398"                              "p84164"                             
+## [37] "p84171"                              "p84182"                             
+## [39] "p99111"                              "p99156"                             
+## [41] "p99159"                              "p99206"                             
+## [43] "sample_start_time_datum_cd_reported" "sample_end_time_datum_cd_reported"  
+## [45] "startDateTime"                       "tz_cd"
 ```
 
 ```r
@@ -834,7 +828,7 @@ length(unique(SaltLake_totalN$site_no))
 ```
 
 ```
-## [1] 6
+## [1] 8
 ```
 
 ### readNWISdv
@@ -2079,9 +2073,9 @@ rect(-81.70, 25.08, -80.30, 26.51, col = NA, border = 'red')
 
 You can now find and download Water Quality Portal data from R! 
 
-## USGS Coding Lab Exercises
+## USGS Exercises Part 1
 
-### Just how dry was the 2020 monsoon?
+### USGS Coding Lab - Just how dry was the 2020 monsoon?
 <img src="./images/09sep20_jja20p.png" width="325" />
 
 
@@ -2325,7 +2319,7 @@ query(DelBay_fabric, "times")
 ```
 
 ```
-## [1] "2022-11-02 UTC" "2022-11-12 UTC"
+## [1] "2023-01-16 UTC" "2023-01-26 UTC"
 ```
 
 The first example we've included here uses aggregated data, meaning there is a single URL for all the data of this type on the server. Some data that you encounter might be non-aggregated, meaning there are multiple URLs to access the same data. In these cases, you will need to create more than one geojob and join data at the end.
@@ -2369,7 +2363,7 @@ length(default_geoms)
 ```
 
 ```
-## [1] 27
+## [1] 38
 ```
 
 ```r
@@ -2377,8 +2371,8 @@ head(default_geoms)
 ```
 
 ```
-## [1] "sample:Alaska"                  "upload:CIDA_TEST_"             
-## [3] "upload:CIDA_TEST_2"             "sample:CONUS_Climate_Divisions"
+## [1] "sample:Alaska"                  "upload:CIDA_TEST_2"            
+## [3] "upload:CIDA_TEST_3"             "sample:CONUS_Climate_Divisions"
 ## [5] "derivative:CONUS_States"        "sample:CONUS_states"
 ```
 
@@ -2632,7 +2626,7 @@ check(evap_geojob)
 ## [1] "Process successful"
 ## 
 ## $URL
-## [1] "https://labs.waterdata.usgs.gov:443/gdp-process-wps/RetrieveResultServlet?id=08c25964-c5ea-4754-8518-3a7f47b06df6OUTPUT"
+## [1] "https://labs.waterdata.usgs.gov:443/gdp-process-wps/RetrieveResultServlet?id=0e78d11d-1c5e-4156-9b9d-e765d66412f3OUTPUT"
 ## 
 ## $statusType
 ## [1] "ProcessSucceeded"
@@ -2757,9 +2751,9 @@ knife_willemail
 ##    SUMMARIZE_TIMESTEP: false
 ##    SUMMARIZE_FEATURE_ATTRIBUTE: false
 ##    DELIMITER: COMMA
-##    REQUIRE_FULL_COVERAGE: true
 ##    STATISTICS: 
 ##    GROUP_BY: 
+##    REQUIRE_FULL_COVERAGE: true
 ## wait: FALSE 
 ## email: fake.email@gmail.com
 ```
@@ -2862,7 +2856,9 @@ precipMap(precipData,
 
 <img src="08-USGS_files/figure-html/visualize-colin-1.png" width="672" />
 
-## USGS NWIS Culmination Write Up
+## USGS Exercises Part 2
+
+### USGS NWIS Culmination Write Up
 
 Write up a 1-page **derived data product or research pipeline proposal** summary of a project that you might want to explore using USGS NWIS and USGS GDP data. Include the types of data that you would need to implement this project and how you would retrieve them. Save this summary as you will be refining and adding to your ideas over the course of the semester.  
 

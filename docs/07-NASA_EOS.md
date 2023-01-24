@@ -15,27 +15,27 @@
 
 #### NASA EOS Data and Information System: the Role of DAACs
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eqZURUcmqXo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9_JZyGq4su8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-> 45 minutes
+>1 hour, 8 minutes
 
-*Dr. Tom Maiersperger*, Project Scientist, LP DAAC
+*Dr. Tom Maiersperger*, Project Scientist, LP DAAC, describes the structure and goals of NASA EOS, and outlines the platform's operations, users, products, outreach, and current and future missions.
 
 #### Accesssing Data from the LP DAAC
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Ruo_ybsqfws" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nnQ44SoTIvo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-> 1 hour, 10 minutes
+> 1 hour, 5 minutes
 
-*Aaron Friez*, Sicence Coordination Lead
+*Aaron Friez*, Science Coordination Lead, LP DAAC, introduces the AppEEars application and explains how to access data products from the AppEEars database. 
 
 ### Assignments in this chapter 
 
 - *NASA EOS Coding Assignment* Obtain an Earth Data account and write a short R script to prove that you have a working username and password (7.4)
 
-- *NASA EOS Coding Lab* Use your Earth Data account to pull and analyze data via the AppEARs API (7.45)
+- *NASA EOS Coding Lab - NDVI in AppEEars* Use your Earth Data account to pull and analyze data via the AppEARs API (7.45.1)
 
-- *NASA EOS Culmination Write Up* Summarize a project you might explore using data from NASA EOS (7.46)
+- *NASA EOS Culmination Write Up* Summarize a project you might explore using data from NASA EOS (7.45.2)
 
 <img src="./images/CURRENT-Earth-Missions10_2019.png" width="400" />
 
@@ -61,7 +61,9 @@ The EOSDIS Earthdata Login provides a centralized and simplified mechanism for u
 
 Earthdata Login provides user registration and authentication services and a common set of user information to all EOSDIS data centers in a manner that permits the data center to integrate their additional requirements with the Earthdata Login services. Below is a brief description of services provided by the Earthdata Login.
 
-## **NASA EOS Coding Assignment**
+## NASA EOS Exercises Part 1
+
+### NASA EOS Coding Assignment
 
 *Suggested completion: following lecture 1 on NASA EOS*
 
@@ -317,8 +319,8 @@ prettify(token_response)                                       # Print the prett
 ```
 ## {
 ##     "token_type": "Bearer",
-##     "token": "lTt9HgITVk5mEekj-KBSM4tZN-2VEE21QkO2lI9Z2LBDzFVmWMiDM7k78KkOMsfegcnMzAQJ3a2dLRiwixG_kg",
-##     "expiration": "2022-11-12T16:56:48Z"
+##     "token": "qeki7a5xhQuQfUDfEYONvfXAqNwwr-Hded182R69mmIprJHHXga2gYdC5sJ6jmsdZ2iQy5GiWAMtM47xNBBhVw",
+##     "expiration": "2023-01-26T20:51:25Z"
 ## }
 ## 
 ```
@@ -355,7 +357,7 @@ sprintf("AppEEARS currently supports %i products." ,length(products))
 ```
 
 ```
-## [1] "AppEEARS currently supports 163 products."
+## [1] "AppEEARS currently supports 164 products."
 ```
 
 Next, look at the product's names and descriptions. Below, the 'ProductAndVersion' and 'Description' are printed for all products.
@@ -445,9 +447,7 @@ for (p in products){
 ## [1] "MYD09Q1.006 is Surface Reflectance Bands 1-2 from LP DAAC"
 ## [1] "MYD09Q1.061 is Surface Reflectance Bands 1-2 from LP DAAC"
 ## [1] "MYD10A1.006 is Snow Cover (NDSI) from NSIDC DAAC"
-## [1] "MYD10A1.061 is Snow Cover (NDSI) from NSIDC DAAC"
 ## [1] "MYD10A2.006 is Snow Cover from NSIDC DAAC"
-## [1] "MYD10A2.061 is Snow Cover from NSIDC DAAC"
 ## [1] "MYD11A1.006 is Land Surface Temperature & Emissivity (LST&E) from LP DAAC"
 ## [1] "MYD11A1.061 is Land Surface Temperature & Emissivity (LST&E) from LP DAAC"
 ## [1] "MYD11A2.006 is Land Surface Temperature & Emissivity (LST&E) from LP DAAC"
@@ -530,6 +530,9 @@ for (p in products){
 ## [1] "ECO1BMAPRAD.001 is Resampled Radiance from LP DAAC"
 ## [1] "ECO3ETALEXI.001 is Evapotranspiration dis-ALEXI from LP DAAC"
 ## [1] "ECO4ESIALEXI.001 is Evaporative Stress Index dis-ALEXI from LP DAAC"
+## [1] "ECO_L1B_GEO.002 is Geolocation from LP DAAC"
+## [1] "ECO_L2_CLOUD.002 is Cloud Mask Instantaneous from LP DAAC"
+## [1] "ECO_L2_LSTE.002 is Swath Land Surface Temperature and Emissivity Instantaneous from LP DAAC"
 ## [1] "HLSS30.020 is Land Surface Reflectance from LP DAAC"
 ## [1] "HLSL30.020 is Land Surface Reflectance from LP DAAC"
 ```
@@ -559,6 +562,9 @@ prettify(toJSON(products$"MCD15A3H.006"))
 ##         "TemporalExtentEnd": "Present",
 ##         "Deleted": false,
 ##         "DOI": "10.5067/MODIS/MCD15A3H.006",
+##         "Info": {
+## 
+##         },
 ##         "ProductAndVersion": "MCD15A3H.006"
 ##     }
 ## ]
@@ -1653,8 +1659,8 @@ prettify(token_response)                                       # Print the prett
 ```
 ## {
 ##     "token_type": "Bearer",
-##     "token": "lTt9HgITVk5mEekj-KBSM4tZN-2VEE21QkO2lI9Z2LBDzFVmWMiDM7k78KkOMsfegcnMzAQJ3a2dLRiwixG_kg",
-##     "expiration": "2022-11-12T16:56:48Z"
+##     "token": "qeki7a5xhQuQfUDfEYONvfXAqNwwr-Hded182R69mmIprJHHXga2gYdC5sJ6jmsdZ2iQy5GiWAMtM47xNBBhVw",
+##     "expiration": "2023-01-26T20:51:25Z"
 ## }
 ## 
 ```
@@ -1688,7 +1694,7 @@ sprintf("AppEEARS currently supports %i products." ,length(products))
 ```
 
 ```
-## [1] "AppEEARS currently supports 163 products."
+## [1] "AppEEARS currently supports 164 products."
 ```
 
 Next, look at the product's names and descriptions. Below, the 'ProductAndVersion' and 'Description' are printed for all products.
@@ -1777,9 +1783,7 @@ for (p in products){
 ## [1] "MYD09Q1.006 is Surface Reflectance Bands 1-2 from LP DAAC"
 ## [1] "MYD09Q1.061 is Surface Reflectance Bands 1-2 from LP DAAC"
 ## [1] "MYD10A1.006 is Snow Cover (NDSI) from NSIDC DAAC"
-## [1] "MYD10A1.061 is Snow Cover (NDSI) from NSIDC DAAC"
 ## [1] "MYD10A2.006 is Snow Cover from NSIDC DAAC"
-## [1] "MYD10A2.061 is Snow Cover from NSIDC DAAC"
 ## [1] "MYD11A1.006 is Land Surface Temperature & Emissivity (LST&E) from LP DAAC"
 ## [1] "MYD11A1.061 is Land Surface Temperature & Emissivity (LST&E) from LP DAAC"
 ## [1] "MYD11A2.006 is Land Surface Temperature & Emissivity (LST&E) from LP DAAC"
@@ -1862,6 +1866,9 @@ for (p in products){
 ## [1] "ECO1BMAPRAD.001 is Resampled Radiance from LP DAAC"
 ## [1] "ECO3ETALEXI.001 is Evapotranspiration dis-ALEXI from LP DAAC"
 ## [1] "ECO4ESIALEXI.001 is Evaporative Stress Index dis-ALEXI from LP DAAC"
+## [1] "ECO_L1B_GEO.002 is Geolocation from LP DAAC"
+## [1] "ECO_L2_CLOUD.002 is Cloud Mask Instantaneous from LP DAAC"
+## [1] "ECO_L2_LSTE.002 is Swath Land Surface Temperature and Emissivity Instantaneous from LP DAAC"
 ## [1] "HLSS30.020 is Land Surface Reflectance from LP DAAC"
 ## [1] "HLSL30.020 is Land Surface Reflectance from LP DAAC"
 ```
@@ -1889,6 +1896,9 @@ prettify(toJSON(products$"MCD15A3H.006"))
 ##         "TemporalExtentEnd": "Present",
 ##         "Deleted": false,
 ##         "DOI": "10.5067/MODIS/MCD15A3H.006",
+##         "Info": {
+## 
+##         },
 ##         "ProductAndVersion": "MCD15A3H.006"
 ##     }
 ## ]
@@ -2632,7 +2642,9 @@ gplot(dem) +
 
 This example can provide a template to use for your own research workflows. Leveraging the AppEEARS API for searching, extracting, and formatting analysis ready data, and loading it directly into R means that you can keep your entire research workflow in a single software program, from start to finish.
 
-## NASA EOS Coding Lab #2
+## NASA EOS Exercises Part 2
+
+### NASA EOS Coding Lab - NDVI in AppEEars
 
 1. Choose two NEON sites in *different* ecoregions.  Then complete the following for **each** of your two NEON sites:
 
@@ -2663,7 +2675,7 @@ This example can provide a template to use for your own research workflows. Leve
 
 **BONUS:** If you'd like to submit an area-based request instead you can do so using the shapefiles for each NEON site [in this folder](https://drive.google.com/drive/folders/19MJee-UKY-McbxDuYYCINhWRbqn4bbGO?usp=sharing)
 
-## NASA EOS Culmination Write Up
+### NASA EOS Culmination Write Up
 
 Write up a 1-page **derived data product or research pipeline proposal** summary of a project that you might want to explore using NASA EOS data. Include the types of data that you would need to implement this project and how you would retrieve them. Save this summary as you will be refining and adding to your ideas over the course of the semester.  
 

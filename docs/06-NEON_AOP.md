@@ -20,39 +20,39 @@ After completing this tutorial, you will be able to:
 
 > 1 hour, 10 minutes
 
-*John Musinsky*, Researd Scientist, Remote Sensing, NEON-Battelle, introduces the NEON Airborne Observation Platform.
+*John Musinsky*, Researd Scientist, Remote Sensing, NEON-Battelle, introduces the NEON Airborne Observation Platform, and describes the various data products and quality control metrics offered by the platform.
 
 #### NEON AOP: Introduction to LiDAR Data
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hNVhvP7rAnU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6MR0r6JEd2A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-> 1 hour
+> 57 minutes
 
-*Dr. Tristan Goulden*, Lead Research Scientist, Remote Sensing, NEON-Battelle, introduces LiDAR data.
+*Dr. Tristan Goulden*, Lead Research Scientist, Remote Sensing, NEON-Battelle, introduces LiDAR data, including data processing, quality assurance, vertical and horizontal accuracy, and data validation and uncertainty. 
 
 #### NEON AOP: Introcudtion to Hyperspectral Data
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jlOCH3H1PWM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qdZavuSUAfk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-> 1 hour, 5 minutes
+> 1 hour, 2 minutes
 
-*Dr. Tristan Goulden*, Lead Research Scientist, Remote Sensing, NEON-Battelle, introduces hyperspectral data.
+*Dr. Tristan Goulden*, Lead Research Scientist, Remote Sensing, NEON-Battelle, introduces hyperspectral data, and talks about spectral and spatial resolution, spectrometer calibration and collection, data products, and challenges with the platform.
 
 #### NEON LiDAR GEDI Fusion
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8HbdFDQPX3s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ikb1T6P5cl0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-1 hour, 20 minutes
+1 hour, 11 minutes
 
 *Dr. Donal O'Leary*, Reserach Scientist, Education and Outreach, NEON-Battelle, covers NEON LiDAR GEDI Fusion.
 
 ### Assignments in this chapter
 
-- *NEON AOP Written Questions* Demonstrate your knowledge of NEON AOP's philosophy and practices, and identify how these intersect with your own research interests (6.14).
+- *NEON AOP Written Questions* Demonstrate your knowledge of NEON AOP's philosophy and practices, and identify how these intersect with your own research interests (6.14.1).
 
-- *NEON AOP Coding Lab* Access NEON AOP data using the `neonUtilities` package and use it generate LiDAR point clouds with the `lidR` package (6.15).
+- *NEON AOP Coding Lab* Access NEON AOP data using the `neonUtilities` package and use it generate LiDAR point clouds with the `lidR` package (6.14.2).
 
-- *NEON AOP Culmination Write Up* Summarize a project you might explore using Data from NEON AOP (6.16).
+- *NEON AOP Culmination Write Up* Summarize a project you might explore using Data from NEON AOP (6.14.3).
 
 ## About Hyperspectral remote sensing
 
@@ -2046,8 +2046,9 @@ plot(chm_WGS)
 plot(base_crop$geometry, border = 'blue', add=T)
 ```
 
+## NEON AOP Exercises
 
-## NEON AOP Written Questions:
+### NEON AOP Written Questions
 
 *Reminder: these questions are largely based on the assigned video lectures.  I highly recommend you watching or re-watching them before tackling these questions.*
 
@@ -2068,7 +2069,7 @@ plot(base_crop$geometry, border = 'blue', add=T)
 7) Which data product(s) derived from the NEON AOP campaign align with remotely-sensed products from NASA?  
 *Hint: start with vegetation indices*
 
-## NEON AOP Coding Lab
+### NEON AOP Coding Lab
 
 For the purpose of this coding lab we will evaluate 2 different forested sites in 2018:
 
@@ -2111,7 +2112,7 @@ For the purpose of this coding lab we will evaluate 2 different forested sites i
   * Use section `6.5.3 Comparing Metrics Between Forests` to compare each forest and generate a a clean summary table via `kable`
   * Using **Table 2** from <a href="https://doi.org/10.3390/rs12091407" target="_blank">LaRue, Wagner, et al. (2020) </a> as a reference, write 1-2 paragraphs summarizing the differences in forest structural diversity between the two forests and how they may relate to your answers to **Question 1**.  
 
-## NEON AOP Culmination Write Up
+### NEON AOP Culmination Write Up
 
 Write up a 1-page **derived data product or research pipeline proposal** summary of a project that you might want to explore using NEON AOP data. Include the types of NEON (and other data) that you would need to implement this project. Save this summary as you will be refining and adding to your ideas over the course of the semester.  
 

@@ -29,6 +29,41 @@ At the end of this activity, you will be able to:
 -   Effectively use the rNPN package to integrate and analyze NPN data
     with other similar datasets
 
+### Guest Lectures
+
+#### Introduction to the USA National Phenology Network
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Tu3pT2y5xqA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+>1 hour, 6 minutes
+
+*Theresa Crimmins*, USA-NPN director, introduces the USA National Phenology Network, describes the platform's citizen science approach to gathering data, and explains how to access USA-NPN data. 
+
+#### Working with USA-NPN Data
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/14hqVV_onqo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+>1 hour, 5 minutes
+
+*Lee Marsh*, USA-NPN IT Coordinator, describes best practices for accessing and working with USA-NPN data. 
+
+#### Challenges with Observational and Citizen Science Data
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nB33rAmpYSc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+>43 minutes
+
+*Luke Zachmann*, Senior Scientist, Conservation Science Partners, explains data censorship, interval data, and data truncation, and shares pro tips and useful techniques when dealing wit citizen science data.
+
+### Assignments in this Chapter
+
+- *USA-NPN Written Questions* Identify ways in which USA-NPN's data and philosophy intersect with your research interests (3.7),
+
+- *USA-NPN Coding Lab - Modeling AGGD* Explore the relationship between phenology and various environmental drivers using `rnpn` and `neonUtilities` (3.14).
+
+- *USA-NPN Culmination Activity* Identify a research project or data product you might persue using USA-NPN data (3.18).
+
 ## USA-NPN Project Mission & Design:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/i_l3miEF7Dk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
@@ -332,7 +367,9 @@ an easier way to explore phenology data and maps. The user-friendly
 interface is intended to allow for searching for comparing general
 trends and quick-and-easy access to map data/products.
 
-## USA-NPN Written Questions
+## USA-NPN Exercies Part 1
+
+### USA-NPN Written Questions
 
 **Suggested timing: Complete before lecture 2 of USA-NPN Hands on Coding
 Exercises**
@@ -942,7 +979,7 @@ npn_get_point_data(
 ```
 
 ```
-## Downloading: 980 B     Downloading: 980 B     Downloading: 990 B     Downloading: 990 B     Downloading: 990 B     Downloading: 990 B
+## Downloading: 990 B     Downloading: 990 B     Downloading: 990 B     Downloading: 990 B
 ```
 
 ```
@@ -1389,7 +1426,9 @@ add_fields <- npn_download_status_data(
 )
 ```
 
-## USA-NPN Coding Lab
+## USA-NPN Exercises Part 2
+
+### Exercise 3.1: USA-NPN Coding Lab
 
 
 ```r
@@ -1530,8 +1569,8 @@ unique(phe_perindividual$taxonID)
 ```
 
 ```
-##  [1] "QURU"  "ACRU"  "ARNU2" "TRBOB" "UVSE"  "MEVI"  "MACA4" "MIRE"  "MARAR"
-## [10] "PRSES" "BEAL2" "PIST"  "ACPE"  "FAGR"  "VACO"  "VIAC"  "BELE"  "FRAM2"
+##  [1] "QURU"  "ACRU"  "ARNU2" "TRBOB" "MEVI"  "UVSE"  "MACA4" "MIRE"  "MARAR"
+## [10] "BEAL2" "PRSES" "PIST"  "ACPE"  "VIAC"  "VACO"  "FAGR"  "FRAM2" "BELE" 
 ## [19] "ACSAS" "TSCA"
 ```
 
@@ -1902,7 +1941,9 @@ the moments (or parameters) of the latent distribution using
 well-established deterministic models involving climatic and other
 phenological forcings.
 
-## Intro to USA-NPN Culmination Activity
+## USA-NPN Exercies Part 3
+
+### Intro to USA-NPN Culmination Activity
 
 **Note: Phenology data may not be relevant everyone. Here are a couple of suggestions:**
 
