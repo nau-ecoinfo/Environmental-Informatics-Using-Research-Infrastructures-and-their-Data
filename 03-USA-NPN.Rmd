@@ -1,8 +1,4 @@
----
-editor_options:
-  markdown:
-    wrap: 72
----
+
 
 # Introduction to USA-NPN & its Data
 
@@ -15,7 +11,7 @@ the end of this section, you will document an initial research question
 or idea and associated data needed to address that question, that you
 may want to explore while pursuing this course.
 
-## USA-NPN Learning Objectives
+## Learning Objectives
 
 At the end of this activity, you will be able to:
 

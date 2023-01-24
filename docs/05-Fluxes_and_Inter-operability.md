@@ -1638,7 +1638,7 @@ pr <- loadByProduct("DP1.00024.001", site="NIWO", avg=30,
 ## Merged the most recent publication of sensor position files for each site and saved to /stackedFiles
 ## Copied the most recent publication of variable definition file to /stackedFiles
 ## Finished: Stacked 1 data tables and 3 metadata tables!
-## Stacking took 0.3172059 secs
+## Stacking took 0.3364489 secs
 ```
 
 `pr` is another named list, and again, metadata and units can be found
@@ -5582,320 +5582,8 @@ devtools::install_github(repo="NEONScience/NEON-IS-data-processing",
 ```
 
 ```
-## Downloading GitHub repo NEONScience/NEON-IS-data-processing@master
-```
-
-```
-## curl       (4.3.3     -> 5.0.0    ) [CRAN]
-## jsonlite   (1.8.2     -> 1.8.4    ) [CRAN]
-## Rcpp       (1.0.9     -> 1.0.10   ) [CRAN]
-## cli        (3.3.0     -> 3.6.0    ) [CRAN]
-## vctrs      (0.4.1     -> 0.5.2    ) [CRAN]
-## bit        (4.0.4     -> 4.0.5    ) [CRAN]
-## fansi      (1.0.3     -> 1.0.4    ) [CRAN]
-## ps         (1.7.1     -> 1.7.2    ) [CRAN]
-## fs         (1.5.2     -> 1.6.0    ) [CRAN]
-## processx   (3.7.0     -> 3.8.0    ) [CRAN]
-## V8         (4.2.1     -> 4.2.2    ) [CRAN]
-## purrr      (0.3.4     -> 1.0.1    ) [CRAN]
-## pkgload    (1.3.1     -> 1.3.2    ) [CRAN]
-## evaluate   (0.18      -> 0.20     ) [CRAN]
-## digest     (0.6.29    -> 0.6.31   ) [CRAN]
-## timechange (0.1.1     -> 0.2.0    ) [CRAN]
-## RJSONIO    (1.3-1.6   -> 1.3-1.7  ) [CRAN]
-## arrow      (10.0.0    -> 10.0.1   ) [CRAN]
-## testthat   (3.1.5     -> 3.1.6    ) [CRAN]
-## lubridate  (1.9.0     -> 1.9.1    ) [CRAN]
-## XML        (3.99-0.12 -> 3.99-0.13) [CRAN]
-```
-
-```
-## Installing 21 packages: curl, jsonlite, Rcpp, cli, vctrs, bit, fansi, ps, fs, processx, V8, purrr, pkgload, evaluate, digest, timechange, RJSONIO, arrow, testthat, lubridate, XML
-```
-
-```
-## Installing packages into 'C:/Users/rohan/AppData/Local/R/win-library/4.2'
-## (as 'lib' is unspecified)
-```
-
-```
-## 
-##   There are binary versions available but the source versions are later:
-##           binary source needs_compilation
-## Rcpp       1.0.9 1.0.10              TRUE
-## vctrs      0.5.1  0.5.2              TRUE
-## fansi      1.0.3  1.0.4              TRUE
-## fs         1.5.2  1.6.0              TRUE
-## lubridate  1.9.0  1.9.1              TRUE
-## 
-## package 'curl' successfully unpacked and MD5 sums checked
-```
-
-```
-## Warning: cannot remove prior installation of package 'curl'
-```
-
-```
-## Warning in file.copy(savedcopy, lib, recursive = TRUE): problem copying C:
-## \Users\rohan\AppData\Local\R\win-library\4.2\00LOCK\curl\libs\x64\curl.dll to C:
-## \Users\rohan\AppData\Local\R\win-library\4.2\curl\libs\x64\curl.dll: Permission
-## denied
-```
-
-```
-## Warning: restored 'curl'
-```
-
-```
-## package 'jsonlite' successfully unpacked and MD5 sums checked
-```
-
-```
-## Warning: cannot remove prior installation of package 'jsonlite'
-```
-
-```
-## Warning in file.copy(savedcopy, lib, recursive = TRUE):
-## problem copying C:\Users\rohan\AppData\Local\R\win-
-## library\4.2\00LOCK\jsonlite\libs\x64\jsonlite.dll to C:
-## \Users\rohan\AppData\Local\R\win-library\4.2\jsonlite\libs\x64\jsonlite.dll:
-## Permission denied
-```
-
-```
-## Warning: restored 'jsonlite'
-```
-
-```
-## package 'cli' successfully unpacked and MD5 sums checked
-```
-
-```
-## Warning: cannot remove prior installation of package 'cli'
-```
-
-```
-## Warning in file.copy(savedcopy, lib, recursive = TRUE): problem copying C:
-## \Users\rohan\AppData\Local\R\win-library\4.2\00LOCK\cli\libs\x64\cli.dll to C:
-## \Users\rohan\AppData\Local\R\win-library\4.2\cli\libs\x64\cli.dll: Permission
-## denied
-```
-
-```
-## Warning: restored 'cli'
-```
-
-```
-## package 'bit' successfully unpacked and MD5 sums checked
-## package 'ps' successfully unpacked and MD5 sums checked
-```
-
-```
-## Warning: cannot remove prior installation of package 'ps'
-```
-
-```
-## Warning in file.copy(savedcopy, lib, recursive = TRUE): problem copying C:
-## \Users\rohan\AppData\Local\R\win-library\4.2\00LOCK\ps\libs\x64\ps.dll to C:
-## \Users\rohan\AppData\Local\R\win-library\4.2\ps\libs\x64\ps.dll: Permission
-## denied
-```
-
-```
-## Warning: restored 'ps'
-```
-
-```
-## package 'processx' successfully unpacked and MD5 sums checked
-```
-
-```
-## Warning: cannot remove prior installation of package 'processx'
-```
-
-```
-## Warning in file.copy(savedcopy, lib, recursive = TRUE):
-## problem copying C:\Users\rohan\AppData\Local\R\win-
-## library\4.2\00LOCK\processx\libs\x64\processx.dll to C:
-## \Users\rohan\AppData\Local\R\win-library\4.2\processx\libs\x64\processx.dll:
-## Permission denied
-```
-
-```
-## Warning: restored 'processx'
-```
-
-```
-## package 'V8' successfully unpacked and MD5 sums checked
-```
-
-```
-## Warning: cannot remove prior installation of package 'V8'
-```
-
-```
-## Warning in file.copy(savedcopy, lib, recursive = TRUE): problem copying C:
-## \Users\rohan\AppData\Local\R\win-library\4.2\00LOCK\V8\libs\x64\V8.dll to C:
-## \Users\rohan\AppData\Local\R\win-library\4.2\V8\libs\x64\V8.dll: Permission
-## denied
-```
-
-```
-## Warning: restored 'V8'
-```
-
-```
-## package 'purrr' successfully unpacked and MD5 sums checked
-```
-
-```
-## Warning: cannot remove prior installation of package 'purrr'
-```
-
-```
-## Warning in file.copy(savedcopy, lib, recursive = TRUE): problem copying C:
-## \Users\rohan\AppData\Local\R\win-library\4.2\00LOCK\purrr\libs\x64\purrr.dll
-## to C:\Users\rohan\AppData\Local\R\win-library\4.2\purrr\libs\x64\purrr.dll:
-## Permission denied
-```
-
-```
-## Warning: restored 'purrr'
-```
-
-```
-## package 'pkgload' successfully unpacked and MD5 sums checked
-## package 'evaluate' successfully unpacked and MD5 sums checked
-## package 'digest' successfully unpacked and MD5 sums checked
-```
-
-```
-## Warning: cannot remove prior installation of package 'digest'
-```
-
-```
-## Warning in file.copy(savedcopy, lib, recursive = TRUE): problem copying C:
-## \Users\rohan\AppData\Local\R\win-library\4.2\00LOCK\digest\libs\x64\digest.dll
-## to C:\Users\rohan\AppData\Local\R\win-library\4.2\digest\libs\x64\digest.dll:
-## Permission denied
-```
-
-```
-## Warning: restored 'digest'
-```
-
-```
-## package 'timechange' successfully unpacked and MD5 sums checked
-```
-
-```
-## Warning: cannot remove prior installation of package 'timechange'
-```
-
-```
-## Warning in file.copy(savedcopy, lib, recursive = TRUE):
-## problem copying C:\Users\rohan\AppData\Local\R\win-
-## library\4.2\00LOCK\timechange\libs\x64\timechange.dll to C:
-## \Users\rohan\AppData\Local\R\win-library\4.2\timechange\libs\x64\timechange.dll:
-## Permission denied
-```
-
-```
-## Warning: restored 'timechange'
-```
-
-```
-## package 'RJSONIO' successfully unpacked and MD5 sums checked
-## package 'arrow' successfully unpacked and MD5 sums checked
-## package 'testthat' successfully unpacked and MD5 sums checked
-## package 'XML' successfully unpacked and MD5 sums checked
-## 
-## The downloaded binary packages are in
-## 	C:\Users\rohan\AppData\Local\Temp\RtmpKItfxd\downloaded_packages
-```
-
-```
-## installing the source packages 'Rcpp', 'vctrs', 'fansi', 'fs', 'lubridate'
-```
-
-```
-## Warning in i.p(...): installation of package 'Rcpp' had non-zero exit status
-```
-
-```
-## Warning in i.p(...): installation of package 'vctrs' had non-zero exit status
-```
-
-```
-## Warning in i.p(...): installation of package 'fansi' had non-zero exit status
-```
-
-```
-## Warning in i.p(...): installation of package 'fs' had non-zero exit status
-```
-
-```
-## Warning in i.p(...): installation of package 'lubridate' had non-zero exit
-## status
-```
-
-```
-##          checking for file 'C:\Users\rohan\AppData\Local\Temp\RtmpKItfxd\remotes7a14131b224a\NEONScience-NEON-IS-data-processing-99842ec\pack\NEONprocIS.base/DESCRIPTION' ...  ✔  checking for file 'C:\Users\rohan\AppData\Local\Temp\RtmpKItfxd\remotes7a14131b224a\NEONScience-NEON-IS-data-processing-99842ec\pack\NEONprocIS.base/DESCRIPTION'
-##       ─  preparing 'NEONprocIS.base': (710ms)
-##    checking DESCRIPTION meta-information ...     checking DESCRIPTION meta-information ...   ✔  checking DESCRIPTION meta-information
-##       ─  checking for LF line-endings in source and make files and shell scripts
-##       ─  checking for empty or unneeded directories
-##   Removed empty directory      Removed empty directory 'NEONprocIS.base/tests/testthat/def.dir.in/test_input/pfs/27134/2019/01/01/calibration'
-##      Removed empty directory 'NEONprocIS.base/tests/testthat/def.dir.in/test_input/pfs/27134/2019/01/01/data'
-##   Removed empty directory      Removed empty directory 'NEONprocIS.base/tests/testthat/def.dir.in/test_input/pfs/27134/2019/01/01/not_included'
-##      Removed empty directory 'NEONprocIS.base/tests/testthat/def.dir.in/test_input/pfs/27134/2019/01/01'
-##      Removed empty directory 'NEONprocIS.base/tests/testthat/def.dir.in/test_input/pfs/27134/2019/01'
-##      Removed empty directory 'NEONprocIS.base/tests/testthat/def.dir.in/test_input/pfs/27134/2019'
-##      Removed empty directory 'NEONprocIS.base/tests/testthat/def.dir.in/test_input/pfs/27134'
-##   Removed empty directory      Removed empty directory 'NEONprocIS.base/tests/testthat/def.dir.in/test_input/pfs/27135/outer/data'
-##   Removed empty directory      Removed empty directory 'NEONprocIS.base/tests/testthat/def.dir.in/test_input/pfs/27135/outer/inner/calibration'
-##      Removed empty directory 'NEONprocIS.base/tests/testthat/def.dir.in/test_input/pfs/27135/outer/inner'
-##      Removed empty directory 'NEONprocIS.base/tests/testthat/def.dir.in/test_input/pfs/27135/outer'
-##      Removed empty directory 'NEONprocIS.base/tests/testthat/def.dir.in/test_input/pfs/27135'
-##   Removed empty directory      Removed empty directory 'NEONprocIS.base/tests/testthat/def.dir.in/test_input/pfs'
-##      Removed empty directory 'NEONprocIS.base/tests/testthat/def.dir.in/test_input'
-##      Removed empty directory 'NEONprocIS.base/tests/testthat/def.dir.in'
-##      Omitted 'LazyData' from DESCRIPTION
-##       ─  building 'NEONprocIS.base_0.0.44.tar.gz'
-##   Warning in utils::tar(filepath, pkgname, compression = compression, compression_level = 9L,  :     Warning in utils::tar(filepath, pkgname, compression = compression, compression_level = 9L,  :
-##      storing paths of more than 100 bytes is not portable:
-##      'NEONprocIS.base/tests/testthat/def.loc.meta/test_input/pfs/2019/01/02/CFGLOC101580/location/prt_20208_locations.json'
-##      Warning in utils::tar(filepath, pkgname, compression = compression, compression_level = 9L,  :
-##      storing paths of more than 100 bytes is not portable:
-##      'NEONprocIS.base/tests/testthat/def.loc.meta/test_input/pfs/2019/01/02/CFGLOC101580/location/prt_20208_locations_alldates_null.json'
-##   Warning in utils::tar(filepath, pkgname, compression = compression, compression_level = 9L,  :     Warning in utils::tar(filepath, pkgname, compression = compression, compression_level = 9L,  :
-##      storing paths of more than 100 bytes is not portable:
-##      'NEONprocIS.base/tests/testthat/def.loc.meta/test_input/pfs/2020/12/31/CFGLOC113261/location/CFGLOC113261.json'
-##      Warning in utils::tar(filepath, pkgname, compression = compression, compression_level = 9L,  :
-##      storing paths of more than 100 bytes is not portable:
-##      'NEONprocIS.base/tests/testthat/def.loc.meta/test_input/pfs/2020/12/31/CFGLOC113261/location/CFGLOC113261_2.json'
-##   Warning in utils::tar(filepath, pkgname, compression = compression, compression_level = 9L,  :     Warning in utils::tar(filepath, pkgname, compression = compression, compression_level = 9L,  :
-##      storing paths of more than 100 bytes is not portable:
-##      'NEONprocIS.base/tests/testthat/def.loc.meta/test_input/pfs/prt_calibrated_location_group/prt/2019/01/'
-##    Warning in utils::tar(filepath, pkgname, compression = compression, compression_level = 9L,  :
-##      storing paths of more than 100 bytes is not portable:
-##      'NEONprocIS.base/tests/testthat/def.loc.meta/test_input/pfs/prt_calibrated_location_group/prt/2019/01/01/'
-##      Warning in utils::tar(filepath, pkgname, compression = compression, compression_level = 9L,  :
-##      storing paths of more than 100 bytes is not portable:
-##      'NEONprocIS.base/tests/testthat/def.loc.meta/test_input/pfs/prt_calibrated_location_group/prt/2019/01/01/16247/'
-##    Warning in utils::tar(filepath, pkgname, compression = compression, compression_level = 9L,  :
-##      storing paths of more than 100 bytes is not portable:
-##      'NEONprocIS.base/tests/testthat/def.loc.meta/test_input/pfs/prt_calibrated_location_group/prt/2019/01/01/16247/prt_16247_location.json'
-##   Warning in utils::tar(filepath, pkgname, compression = compression, compression_level = 9L,  :     Warning in utils::tar(filepath, pkgname, compression = compression, compression_level = 9L,  :
-##      storing paths of more than 100 bytes is not portable:
-##      'NEONprocIS.base/tests/testthat/pfs/proc_group/prt/2019/01/01/27134/flags/prt_14491_2019-01-01_flagsCal.parquet'
-##      
-## 
-```
-
-```
-## Installing package into 'C:/Users/rohan/AppData/Local/R/win-library/4.2'
-## (as 'lib' is unspecified)
+## Skipping install of 'NEONprocIS.base' from a github remote, the SHA1 (99842ec9) has not changed since last install.
+##   Use `force = TRUE` to force installation
 ```
 
 ```r
@@ -6184,21 +5872,21 @@ Download and extract data
 ## Downloading files totaling approximately 83.333588 MB
 ## Downloading 1 files
 ##   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-## 1 files successfully downloaded to C:\Users\rohan\AppData\Local\Temp\RtmpKItfxd/filesToStack00200
+## 1 files successfully downloaded to C:\Users\rohan\AppData\Local\Temp\Rtmpk7JqnG/filesToStack00200
 ## Finding available files
 ##   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
 ## 
 ## Downloading files totaling approximately 68.719186 MB
 ## Downloading 1 files
 ##   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-## 1 files successfully downloaded to C:\Users\rohan\AppData\Local\Temp\RtmpKItfxd/filesToStack00200
+## 1 files successfully downloaded to C:\Users\rohan\AppData\Local\Temp\Rtmpk7JqnG/filesToStack00200
 ## Finding available files
 ##   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
 ## 
 ## Downloading files totaling approximately 69.960912 MB
 ## Downloading 1 files
 ##   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-## 1 files successfully downloaded to C:\Users\rohan\AppData\Local\Temp\RtmpKItfxd/filesToStack00200
+## 1 files successfully downloaded to C:\Users\rohan\AppData\Local\Temp\Rtmpk7JqnG/filesToStack00200
 ```
 
 Add names to list for year/month combinations
@@ -6350,8 +6038,8 @@ memory
 
 ```
 ##            used  (Mb) gc trigger  (Mb) max used  (Mb)
-## Ncells  1635719  87.4    3167488 169.2  3167488 169.2
-## Vcells 17296750 132.0   72283512 551.5 83180985 634.7
+## Ncells  1494506  79.9    3173295 169.5  3173295 169.5
+## Vcells 16220596 123.8   72272739 551.4 75217259 573.9
 ```
 
 Regularize timeseries to 30 minutes in case timestamps are missing from
@@ -6624,8 +6312,8 @@ Clean up environment
 
 ```
 ##            used  (Mb) gc trigger  (Mb) max used  (Mb)
-## Ncells  1638164  87.5    3167488 169.2  3167488 169.2
-## Vcells 17370876 132.6   57826810 441.2 83180985 634.7
+## Ncells  1496962  80.0    3173295 169.5  3173295 169.5
+## Vcells 16294739 124.4   57818192 441.2 75217259 573.9
 ```
 
 

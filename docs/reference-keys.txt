@@ -79,7 +79,7 @@ exercise-2.2-written-questions
 exercise-2.3-neon-coding-lab---further-exploration-of-neon-data
 exercise-2.4-intro-to-neon-culmination-activity
 introduction-to-usa-npn-its-data
-usa-npn-learning-objectives
+learning-objectives-1
 guest-lectures-1
 introduction-to-the-usa-national-phenology-network
 working-with-usa-npn-data
@@ -139,7 +139,7 @@ so-then-how-can-we-model-censored-data
 usa-npn-exercies-part-3
 intro-to-usa-npn-culmination-activity
 phenocam-digital-repeat-photography-networks-methods
-digital-repeat-photography-networks-learning-objectives
+learning-objectives-2
 guest-lectures-2
 phenocam-marrying-phenology-and-fluxes
 digital-repeat-photography-methods
@@ -187,7 +187,7 @@ quantifying-haze-and-redness-to-evaluate-california-wildfires
 phenocam-culmination-activity
 known-issues
 flux-measurements-inter-operability
-learning-objectives-1
+learning-objectives-3
 guest-lectures-3
 neon-flux-data-and-inter-operability-part-1
 neon-flux-data-and-inter-operability-part-2
@@ -212,7 +212,7 @@ convert-neon-flux-data-variables-to-ameriflux-fp-standard
 flux-measurements-and-interoperability-exercise
 neon-flux-coding-lab
 neon-aop
-learning-objectives-2
+learning-objectives-4
 guest-lectures-4
 introduction-to-neon-airborne-observation-platform
 neon-aop-introduction-to-lidar-data
@@ -227,7 +227,7 @@ bands-and-wavelengths
 spectral-resolution
 full-width-half-max-fwhm
 intro-to-working-with-hyperspectral-remote-sensing-data-in-hdf5-format
-learning-objectives-3
+learning-objectives-5
 r-libraries-to-install
 data-to-download
 about-hyperspectral-remote-sensing-data-1
@@ -244,7 +244,7 @@ define-raster-crs
 challenge-work-with-rasters
 light-detection-and-ranging-lidar-data
 calculating-forest-structural-diversity-metrics-from-neon-lidar-data
-learning-objectives-4
+learning-objectives-6
 r-libraries-to-install-1
 data-to-download-1
 recommended-skills
@@ -269,7 +269,7 @@ vci
 combining-everything-into-one-function
 comparing-metrics-between-forests
 matching-gedi-waveforms-with-neon-aop-lidar-pointclouds
-learning-objectives-5
+learning-objectives-7
 things-youll-need-to-complete-this-gedi-section
 r-packages-to-install
 example-data-set
@@ -297,7 +297,7 @@ neon-aop-coding-lab
 neon-aop-culmination-write-up
 known-issues-1
 nasas-earth-observing-system-eos
-learning-objectives-6
+learning-objectives-8
 guest-lectures-5
 nasa-eos-data-and-information-system-the-role-of-daacs
 accesssing-data-from-the-lp-daac
@@ -375,7 +375,7 @@ nasa-eos-exercises-part-2
 nasa-eos-coding-lab---ndvi-in-appeears
 nasa-eos-culmination-write-up
 usgs-national-water-information-system-nwis
-learning-objectives-7
+learning-objectives-9
 guest-lectures-6
 usgs-water-resources-data-the-internet-of-water
 accessing-data-from-the-usgs-national-water-information-system

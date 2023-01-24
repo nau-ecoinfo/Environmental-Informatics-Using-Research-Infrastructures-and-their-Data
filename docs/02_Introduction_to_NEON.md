@@ -975,7 +975,7 @@ req
 
 ```
 ## Response [https://data.neonscience.org/api/v0/products/DP1.10003.001]
-##   Date: 2023-01-24 20:36
+##   Date: 2023-01-24 21:22
 ##   Status: 200
 ##   Content-Type: application/json;charset=UTF-8
 ##   Size: 52.9 kB
