@@ -28,6 +28,34 @@ At the end of this activity, you will be able to:
     provided by NEON, and how they align with your own research.
 -   Pull NEON data from the API and `neonUtilities` package
     [@R-neonUtilites]
+    
+### Guest Lectures
+
+#### Introduction to the National Ecological Observatory Netowrk (NEON)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/in8UWOC08HI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+>1 hour, 6 minutes
+
+*Donal O'Leary*, Research Scientist, Education and Outreach, NEON - Battelle, outlines NEON's Ten Big Ideas, talks about program funding and the Battelle takeover, and explains NEON data availability, site selection, and constraints. 
+
+#### Interfacing with NEON and its Data
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3jsmqvACBL4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+>1 hour
+
+*Donal O'Leary*, Research Scientist, Education and Outreach, NEON - Battelle, demonstrates best practices for accessing NEON data using NEON's online platform and RStudio.
+
+### Assignments in this Chapter
+
+- *NEON Coding Lab - TOS Vegetation Structure* Obtain a NEON API token and use to access and analyze woody plant vegetation structure from NEON's Terrestrial Observation Sampling (TOS) data using the `neonUtilities` package (2.10).
+
+- *Written Questions* Demonstrate your knowledge of NEON's data philosophies and identify ways in which NEON data could be used in your own research (2.14.1).
+
+- *NEON Coding Lab - Further Exploration of NEON Data* Demonstrate your mastery of NEON's data interface in `R` by accessing and analyzing NEON data that intersects with your research interests (2.14.2). 
+
+- *Intro to NEON Culmination Activity* Summarize a research project or data product you might pursue using NEON data (2.14.3).
 
 ## The NEON Project Mission & Design
 

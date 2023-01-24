@@ -12,33 +12,33 @@
 
 #### USGS Water Resources Data: The Internet of Water
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/O_FLAAWW1E4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SWg2GTbTiIM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-> 55 minutes
+> 54 minutes
 
-*Jim Kreft*, Product owner, USGS Water Resources Mission
+*Jim Kreft*, Product owner, USGS Water Resources Mission, introduces the USGS Water Resources dashboard, explains how to query location-specific information, and provides a roadmap for new data products. 
 
 #### Accessing Data from the USGS National Water Information System
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SHrn_kvs-IA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/t2eKTntL6y8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-> 1 hour
+> 1 hour, 1 minute
 
-*Dr. Laura DeChico*, Data Manager and R Package Developer, U.S. Geological Survey's Data Science Branch of the Water Resources Mission Area
+*Dr. Laura DeChico*, Data Manager and R Package Developer, U.S. Geological Survey's Data Science Branch of the Water Resources Mission Area, introduces the USGS Water Resources GitHub, and provides in-depth examples of how to access the data in R.
 
 #### USGS National Water Information System: Using the geoknife package
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4FcAI_EOD3w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qToyeD_OJbs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-> 55 minutes
+> 52 minutes
 
-*Dr. Jordan Reed*, Chief, U.S. Geological Survey's Data Science Branch of the Water Resources Mission Area
+*Dr. Jordan Reed*, Chief, U.S. Geological Survey's Data Science Branch of the Water Resources Mission Area, introduces the geoknife package, its interface, and how to use it t oconnect data and resources, including examples in R.
 
 ### Assignments in this chapter
 
-- *USGS Coding Lab* use the USGS `dataRetrieval` R package to analyze data from the 2020 monsoon in Arizona (8.16).
+- *USGS Coding Lab - Just how dry was the 2020 monsoon?* use the USGS `dataRetrieval` R package to analyze data from the 2020 monsoon in Arizona (8.16).
 
-- *USGS Culmination Write Up* Summarize a project you might explore using data from USGS (8.31).INF
+- *USGS Culmination Write Up* Summarize a project you might explore using data from USGS (8.31).
 
 ## USGS Mission:
 
@@ -1063,9 +1063,9 @@ rect(-81.70, 25.08, -80.30, 26.51, col = NA, border = 'red')
 
 You can now find and download Water Quality Portal data from R! 
 
-## USGS Coding Lab Exercises
+## USGS Exercises Part 1
 
-### Just how dry was the 2020 monsoon?
+### USGS Coding Lab - Just how dry was the 2020 monsoon?
 ```{r, echo=FALSE}
 knitr::include_graphics('./images/09sep20_jja20p.png')
 ```
@@ -1509,7 +1509,9 @@ precipMap(precipData,
           endDate = endTSColin)
 ```
 
-## USGS NWIS Culmination Write Up
+## USGS Exercises Part 2
+
+### USGS NWIS Culmination Write Up
 
 Write up a 1-page **derived data product or research pipeline proposal** summary of a project that you might want to explore using USGS NWIS and USGS GDP data. Include the types of data that you would need to implement this project and how you would retrieve them. Save this summary as you will be refining and adding to your ideas over the course of the semester.  
 

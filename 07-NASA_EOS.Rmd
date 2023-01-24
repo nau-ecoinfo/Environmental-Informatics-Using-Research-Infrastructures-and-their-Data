@@ -15,27 +15,27 @@
 
 #### NASA EOS Data and Information System: the Role of DAACs
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eqZURUcmqXo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9_JZyGq4su8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-> 45 minutes
+>1 hour, 8 minutes
 
-*Dr. Tom Maiersperger*, Project Scientist, LP DAAC
+*Dr. Tom Maiersperger*, Project Scientist, LP DAAC, describes the structure and goals of NASA EOS, and outlines the platform's operations, users, products, outreach, and current and future missions.
 
 #### Accesssing Data from the LP DAAC
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Ruo_ybsqfws" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nnQ44SoTIvo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-> 1 hour, 10 minutes
+> 1 hour, 5 minutes
 
-*Aaron Friez*, Sicence Coordination Lead
+*Aaron Friez*, Science Coordination Lead, LP DAAC, introduces the AppEEars application and explains how to access data products from the AppEEars database. 
 
 ### Assignments in this chapter 
 
 - *NASA EOS Coding Assignment* Obtain an Earth Data account and write a short R script to prove that you have a working username and password (7.4)
 
-- *NASA EOS Coding Lab* Use your Earth Data account to pull and analyze data via the AppEARs API (7.45)
+- *NASA EOS Coding Lab - NDVI in AppEEars* Use your Earth Data account to pull and analyze data via the AppEARs API (7.45.1)
 
-- *NASA EOS Culmination Write Up* Summarize a project you might explore using data from NASA EOS (7.46)
+- *NASA EOS Culmination Write Up* Summarize a project you might explore using data from NASA EOS (7.45.2)
 
 ```{r, echo=FALSE}
 knitr::include_graphics('./images/CURRENT-Earth-Missions10_2019.png')
@@ -63,7 +63,9 @@ The EOSDIS Earthdata Login provides a centralized and simplified mechanism for u
 
 Earthdata Login provides user registration and authentication services and a common set of user information to all EOSDIS data centers in a manner that permits the data center to integrate their additional requirements with the Earthdata Login services. Below is a brief description of services provided by the Earthdata Login.
 
-## **NASA EOS Coding Assignment**
+## NASA EOS Exercises Part 1
+
+### NASA EOS Coding Assignment
 
 *Suggested completion: following lecture 1 on NASA EOS*
 
@@ -1228,7 +1230,9 @@ gplot(dem) +
 
 This example can provide a template to use for your own research workflows. Leveraging the AppEEARS API for searching, extracting, and formatting analysis ready data, and loading it directly into R means that you can keep your entire research workflow in a single software program, from start to finish.
 
-## NASA EOS Coding Lab #2
+## NASA EOS Exercises Part 2
+
+### NASA EOS Coding Lab - NDVI in AppEEars
 
 1. Choose two NEON sites in *different* ecoregions.  Then complete the following for **each** of your two NEON sites:
 
@@ -1259,7 +1263,7 @@ This example can provide a template to use for your own research workflows. Leve
 
 **BONUS:** If you'd like to submit an area-based request instead you can do so using the shapefiles for each NEON site [in this folder](https://drive.google.com/drive/folders/19MJee-UKY-McbxDuYYCINhWRbqn4bbGO?usp=sharing)
 
-## NASA EOS Culmination Write Up
+### NASA EOS Culmination Write Up
 
 Write up a 1-page **derived data product or research pipeline proposal** summary of a project that you might want to explore using NASA EOS data. Include the types of data that you would need to implement this project and how you would retrieve them. Save this summary as you will be refining and adding to your ideas over the course of the semester.  
 

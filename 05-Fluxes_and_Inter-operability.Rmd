@@ -31,22 +31,21 @@ At the end of this activity, you will be able to:
 
 #### NEON Flux Data and Inter-operability, Part 1
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iKYYhEUq3-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/InHBx_Bl6gc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-> 1 hour
+> 58 minutes
 
 **Chris Florian**, Research Scientist, Surface-Atmosphere Exchange,
-NEON-Battelle introduces NEON flux data.
+NEON-Battelle introduces NEON flux data and explains flux towers, Eddy Covariance, NEON-AmeriFlux collaborations, and future directions for the project.
 
 #### NEON Flux Data and Inter-operability, Part 2
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/krr1m5Rd_wc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1LpS3ClbnOU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-> 1 hour
+> 1 hour, 10 minutes
 
 **Chris Florian**, Research Scientist, Surface-Atmosphere Exchange,
-NEON-Battelle continues the discussion of NEON flux data and
-inter-operability.
+NEON-Battelle provides an in-depth demonstration of how to access and work with NEON Flux data.
 
 ### Assignments in this chapter
 
@@ -996,9 +995,9 @@ files <- list.files("./data/filesToStack00200")
 file.remove(paste0("./data/filesToStack00200/", files))
 ```
 
-## Exercises
+## Flux Measurements and Interoperability Exercise
 
-### Computational
+### NEON Flux Coding Lab
 
 1)  NEON data are submitted to AmeriFlux quarterly after one year of
     non-quality flagged or otherwise missing data are available. Use the

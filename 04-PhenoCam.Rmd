@@ -47,9 +47,9 @@ At the end of this activity, you will be able to:
 
 #### Digital repeat photography methods
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sJTEKEHZNVs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WOfdshm94KM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
->(1 hour, 11 minutes)
+>(1 hour, 12 minutes)
 
 **Bijan Seyednasrollah**, Post-doctoral scholar at Northern Arizona University, School of Informatics, Computing, and Cyber Systems, and lead developer of phenocamapi, covers digital repeat photography methods and the phenocamapi R package.
 
@@ -58,12 +58,10 @@ At the end of this activity, you will be able to:
 
   - *Digital Repeat Photography Written Questions* Demonstrate your knowledge of PhenoCam's philosophy and practices, and identify how these intersect with your own research interests (4.4).
   
-  - *Digital Repeat Photography Coding Lab* Download and Manipulate digital repeat photography data using the R packages covered in this chapter (4.13).
+  - *Digital Repeat Photography Coding Lab* Download and Manipulate digital repeat photography data using the R packages covered in this chapter (4.13.1).
   
-  - *PhenoCam culmination activity* Summarize a project you might explore using PhenoCam (4.14). 
+  - *PhenoCam culmination activity* Summarize a project you might explore using PhenoCam (4.13.2). 
   
-  
-
 ## The PhenoCam Network Mission & Design
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_4uHLXL1yZA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -186,7 +184,9 @@ knitr::include_graphics(c("./images/phenocamFALSE1.png","./images/phenocamFALSE2
 
 
 
-## Digital Repeat Photography Written Questions
+## PhenoCam Exercises Part 1
+
+### Digital Repeat Photography Written Questions
 
 
 *Suggested completion: Before Digital Repeat Photography methods (day 2 PhenoCam)*
@@ -1527,10 +1527,11 @@ Once you have a subplot of grassland phenology across 2 climates answer the foll
 3. What are the challenges of forecasting or modeling tropical versus arid grasslands?
 
 
-## Digital Repeat Photography Coding Lab
+## PhenoCam Exercises Part 2
 
+###Digital Repeat Photography Coding Lab
 
-### Quantifying haze and redness to evaluate California wildfires
+#### Quantifying haze and redness to evaluate California wildfires
 
 1. Pull mid-day imagery for September 1-7th, 2019 and 2020 for the canopy-level camera `NEON.D17.SOAP.DP1.00033`.  Create a 2-panel plot showing those images in 2019 (left) and 2020 (right).
 
@@ -1538,9 +1539,9 @@ Once you have a subplot of grassland phenology across 2 climates answer the foll
 
 3. Generate a density function RGB plot for your haziest image in 2020, and one for the same date in 2019.  Create a 2-panel plot showing 2019 on the left and 2020 on the right.  
 
-4. Pull timesseries data via the `phenocamapi` package.  Calculate the difference in the rcc90 between 2019 and 2020 over the same time period as your images.
+4. Pull time series data via the `phenocamapi` package.  Calculate the difference in the rcc90 between 2019 and 2020 over the same time period as your images.
 
-5. Create a summary plot showing haze as a bar and the differenece in rcc90 from *question 4* as a timersies.
+5. Create a summary plot showing haze as a bar and the difference in rcc90 from *question 4* as a time series.
 
 6. Answer the following questions:
 
@@ -1551,6 +1552,10 @@ Once you have a subplot of grassland phenology across 2 climates answer the foll
   **Optional Bonus Points:** 
   Repeat the above calculations for the understory camera on the same tower `NEON.D17.SOAP.DP1.00042` and produce the same plots.  Which camera is 'better' and capturing wildfire?  Why do you think that is so?
   
-## PhenoCam Culmination Activity
+### PhenoCam Culmination Activity
 
 Write up a 1-page summary of a project that you might want to explore using PhenoCam data over the duration of this course. Include the types of PhenoCam (and other data) that you will need to implement this project. Save this summary as you will be refining and adding to your ideas over the course of the semester.
+
+## Known Issues
+
+The prerecorded guest lecture by Andrew Richardson (4.1.1.1) is missing. The video in section 4.1.1.1 currently is a placeholder. 
