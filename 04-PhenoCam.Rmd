@@ -56,11 +56,11 @@ At the end of this activity, you will be able to:
 
 ### Assignments in this chapter
 
-  - *Digital Repeat Photography Written Questions* Demonstrate your knowledge of PhenoCam's philosophy and practices, and identify how these intersect with your own research interests (4.4).
+  - [*Digital Repeat Photography Written Questions*](#digital-repeat-photography-written-questions) Demonstrate your knowledge of PhenoCam's philosophy and practices, and identify how these intersect with your own research interests (4.4).
   
-  - *Digital Repeat Photography Coding Lab* Download and Manipulate digital repeat photography data using the R packages covered in this chapter (4.13.1).
+  - [*Digital Repeat Photography Coding Lab*](#digital-repeat-photography-coding-lab) Download and Manipulate digital repeat photography data using the R packages covered in this chapter (4.13.1).
   
-  - *PhenoCam culmination activity* Summarize a project you might explore using PhenoCam (4.13.2). 
+  - [*PhenoCam Culmination Activity*](#phenocam-culmination-activity) Summarize a project you might explore using PhenoCam (4.13.2). 
   
 ## The PhenoCam Network Mission & Design
 
@@ -1529,7 +1529,7 @@ Once you have a subplot of grassland phenology across 2 climates answer the foll
 
 ## PhenoCam Exercises Part 2
 
-###Digital Repeat Photography Coding Lab
+### Digital Repeat Photography Coding Lab
 
 #### Quantifying haze and redness to evaluate California wildfires
 

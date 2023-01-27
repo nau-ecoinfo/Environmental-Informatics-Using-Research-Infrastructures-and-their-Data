@@ -35,9 +35,9 @@
 
 ### Assignments in this chapter
 
-- *USGS Coding Lab - Just how dry was the 2020 monsoon?* use the USGS `dataRetrieval` R package to analyze data from the 2020 monsoon in Arizona (8.16).
+- [*USGS Coding Lab*](#usgs-coding-lab) use the USGS `dataRetrieval` R package to analyze data from the 2020 monsoon in Arizona (8.16).
 
-- *USGS Culmination Write Up* Summarize a project you might explore using data from USGS (8.31).
+- [*USGS Culmination Activity*](#usgs-nwis-culmination-activity) Summarize a project you might explore using data from USGS (8.31).
 
 ## USGS Mission:
 
@@ -398,10 +398,10 @@ names(wqpcounts_sc)
 ## [17] "x-content-type-options"    "x-xss-protection"         
 ## [19] "strict-transport-security" "x-cache"                  
 ## [21] "via"                       "x-amz-cf-pop"             
-## [23] "x-amz-cf-id"
+## [23] "x-amz-cf-id"               "age"
 ```
 
-This returns a list with 23 different items, including total number of sites, breakdown of the number of sites by source (BioData, NWIS, STORET), total number of records, and breakdown of records count by source. Let's just look at total number of sites and total number of records.
+This returns a list with 24 different items, including total number of sites, breakdown of the number of sites by source (BioData, NWIS, STORET), total number of records, and breakdown of records count by source. Let's just look at total number of sites and total number of records.
 
 
 ```r
@@ -2074,7 +2074,7 @@ You can now find and download Water Quality Portal data from R!
 
 ## USGS Exercises Part 1
 
-### USGS Coding Lab - Just how dry was the 2020 monsoon?
+### USGS Coding Lab
 <img src="./images/09sep20_jja20p.png" width="325" />
 
 
@@ -2362,7 +2362,7 @@ length(default_geoms)
 ```
 
 ```
-## [1] 54
+## [1] 57
 ```
 
 ```r
@@ -2607,9 +2607,6 @@ evap_geojob <- geoknife(evap_stencil, evap_fabric, evap_knife)
 ```
 
 
-```
-## Process Accepted
-```
 
 ## Checking the geojob status
 
@@ -2625,7 +2622,7 @@ check(evap_geojob)
 ## [1] "Process successful"
 ## 
 ## $URL
-## [1] "https://labs.waterdata.usgs.gov:443/gdp-process-wps/RetrieveResultServlet?id=d26ec2cb-e815-488d-9602-b49e650c606aOUTPUT"
+## [1] "https://labs.waterdata.usgs.gov:443/gdp-process-wps/RetrieveResultServlet?id=683fddb5-8e8b-43c2-9be1-a13107792be8OUTPUT"
 ## 
 ## $statusType
 ## [1] "ProcessSucceeded"
@@ -2857,7 +2854,7 @@ precipMap(precipData,
 
 ## USGS Exercises Part 2
 
-### USGS NWIS Culmination Write Up
+### USGS NWIS Culmination Activity
 
 Write up a 1-page **derived data product or research pipeline proposal** summary of a project that you might want to explore using USGS NWIS and USGS GDP data. Include the types of data that you would need to implement this project and how you would retrieve them. Save this summary as you will be refining and adding to your ideas over the course of the semester.  
 

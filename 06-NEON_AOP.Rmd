@@ -48,11 +48,11 @@ After completing this tutorial, you will be able to:
 
 ### Assignments in this chapter
 
-- *NEON AOP Written Questions* Demonstrate your knowledge of NEON AOP's philosophy and practices, and identify how these intersect with your own research interests (6.14.1).
+- [*NEON AOP Written Questions*](#neon-aop-written-questions) Demonstrate your knowledge of NEON AOP's philosophy and practices, and identify how these intersect with your own research interests (6.14.1).
 
-- *NEON AOP Coding Lab* Access NEON AOP data using the `neonUtilities` package and use it generate LiDAR point clouds with the `lidR` package (6.14.2).
+- [*NEON AOP Coding Lab*](#neon-aop-coding-lab) Access NEON AOP data using the `neonUtilities` package and use it generate LiDAR point clouds with the `lidR` package (6.14.2).
 
-- *NEON AOP Culmination Write Up* Summarize a project you might explore using Data from NEON AOP (6.14.3).
+- [*NEON AOP Culmination Activity*](#neon-aop-culmination-activity) Summarize a project you might explore using Data from NEON AOP (6.14.3).
 
 ## About Hyperspectral remote sensing
 
@@ -1868,7 +1868,7 @@ For the purpose of this coding lab we will evaluate 2 different forested sites i
   * Use section `6.5.3 Comparing Metrics Between Forests` to compare each forest and generate a a clean summary table via `kable`
   * Using **Table 2** from <a href="https://doi.org/10.3390/rs12091407" target="_blank">LaRue, Wagner, et al. (2020) </a> as a reference, write 1-2 paragraphs summarizing the differences in forest structural diversity between the two forests and how they may relate to your answers to **Question 1**.  
 
-### NEON AOP Culmination Write Up
+### NEON AOP Culmination Activity
 
 Write up a 1-page **derived data product or research pipeline proposal** summary of a project that you might want to explore using NEON AOP data. Include the types of NEON (and other data) that you would need to implement this project. Save this summary as you will be refining and adding to your ideas over the course of the semester.  
 

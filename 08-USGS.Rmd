@@ -35,9 +35,9 @@
 
 ### Assignments in this chapter
 
-- *USGS Coding Lab - Just how dry was the 2020 monsoon?* use the USGS `dataRetrieval` R package to analyze data from the 2020 monsoon in Arizona (8.16).
+- [*USGS Coding Lab*](#usgs-coding-lab) use the USGS `dataRetrieval` R package to analyze data from the 2020 monsoon in Arizona (8.16).
 
-- *USGS Culmination Write Up* Summarize a project you might explore using data from USGS (8.31).
+- [*USGS Culmination Activity*](#usgs-nwis-culmination-activity) Summarize a project you might explore using data from USGS (8.31).
 
 ## USGS Mission:
 
@@ -1064,7 +1064,7 @@ You can now find and download Water Quality Portal data from R!
 
 ## USGS Exercises Part 1
 
-### USGS Coding Lab - Just how dry was the 2020 monsoon?
+### USGS Coding Lab
 ```{r, echo=FALSE}
 knitr::include_graphics('./images/09sep20_jja20p.png')
 ```
@@ -1510,7 +1510,7 @@ precipMap(precipData,
 
 ## USGS Exercises Part 2
 
-### USGS NWIS Culmination Write Up
+### USGS NWIS Culmination Activity
 
 Write up a 1-page **derived data product or research pipeline proposal** summary of a project that you might want to explore using USGS NWIS and USGS GDP data. Include the types of data that you would need to implement this project and how you would retrieve them. Save this summary as you will be refining and adding to your ideas over the course of the semester.  
 

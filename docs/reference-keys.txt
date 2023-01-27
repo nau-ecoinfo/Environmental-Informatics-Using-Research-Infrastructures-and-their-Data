@@ -77,7 +77,7 @@ stacking-neon-data
 intro-to-neon-exercises-part-2
 neon-written-questions
 neon-coding-lab---further-exploration-of-neon-data
-exercise-2.4-intro-to-neon-culmination-activity
+intro-to-neon-culmination-activity
 introduction-to-usa-npn-its-data
 learning-objectives-1
 guest-lectures-1
@@ -130,14 +130,14 @@ downloading-geospatial-data
 putting-it-together
 other-data-sources-e.g.-daymet-modis
 usa-npn-exercises-part-2
-exercise-3.1-usa-npn-coding-lab
+usa-npn-coding-lab---modeling-aggd
 neon-tos-phenology-data-lecture
 understanding-observation-biases-and-censoring-in-citizen-science-data
 many-existing-modeling-approaches-fail-in-one-or-both-regards.
 censoring
 so-then-how-can-we-model-censored-data
 usa-npn-exercies-part-3
-intro-to-usa-npn-culmination-activity
+usa-npn-culmination-activity
 phenocam-digital-repeat-photography-networks-methods
 learning-objectives-2
 guest-lectures-2
@@ -183,6 +183,7 @@ threshold-values
 comparing-phenology-across-vegetation-types
 in-class-hands-on-coding-comparing-phenology-of-the-same-plant-function-type-pft-across-climate-space
 phenocam-exercises-part-2
+digital-repeat-photography-coding-lab
 quantifying-haze-and-redness-to-evaluate-california-wildfires
 phenocam-culmination-activity
 known-issues
@@ -294,7 +295,7 @@ optional---neon-base-plots
 neon-aop-exercises
 neon-aop-written-questions
 neon-aop-coding-lab
-neon-aop-culmination-write-up
+neon-aop-culmination-activity
 known-issues-1
 nasas-earth-observing-system-eos
 learning-objectives-8
@@ -373,7 +374,7 @@ load-a-geotiff
 plot-a-geotiff
 nasa-eos-exercises-part-2
 nasa-eos-coding-lab---ndvi-in-appeears
-nasa-eos-culmination-write-up
+nasa-eos-culmination-activity
 usgs-national-water-information-system-nwis
 learning-objectives-9
 guest-lectures-6
@@ -423,7 +424,7 @@ readwqpdata
 readwqpqw
 attributes-and-metadata
 usgs-exercises-part-1
-usgs-coding-lab---just-how-dry-was-the-2020-monsoon
+usgs-coding-lab
 geoknife---introduction
 lesson-summary-1
 lesson-objectives-1
@@ -441,4 +442,4 @@ getting-geojob-data
 wait-and-email
 putting-it-all-together-mapping-precipitation-from-tropical-storm-colin
 usgs-exercises-part-2
-usgs-nwis-culmination-write-up
+usgs-nwis-culmination-activity

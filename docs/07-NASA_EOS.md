@@ -31,11 +31,11 @@
 
 ### Assignments in this chapter 
 
-- *NASA EOS Coding Assignment* Obtain an Earth Data account and write a short R script to prove that you have a working username and password (7.4)
+- [*NASA EOS Coding Assignment*](#nasa-eos-coding-assignment) Obtain an Earth Data account and write a short R script to prove that you have a working username and password (7.4)
 
-- *NASA EOS Coding Lab - NDVI in AppEEars* Use your Earth Data account to pull and analyze data via the AppEARs API (7.45.1)
+- [*NASA EOS Coding Lab - NDVI in AppEEars*](#nasa-eos-coding-lab---ndvi-in-appeears) Use your Earth Data account to pull and analyze data via the AppEARs API (7.45.1)
 
-- *NASA EOS Culmination Write Up* Summarize a project you might explore using data from NASA EOS (7.45.2)
+- [*NASA EOS Culmination Activity*](#nasa-eos-culmination-activity) Summarize a project you might explore using data from NASA EOS (7.45.2)
 
 <img src="./images/CURRENT-Earth-Missions10_2019.png" width="400" />
 
@@ -2675,7 +2675,7 @@ This example can provide a template to use for your own research workflows. Leve
 
 **BONUS:** If you'd like to submit an area-based request instead you can do so using the shapefiles for each NEON site [in this folder](https://drive.google.com/drive/folders/19MJee-UKY-McbxDuYYCINhWRbqn4bbGO?usp=sharing)
 
-### NASA EOS Culmination Write Up
+### NASA EOS Culmination Activity
 
 Write up a 1-page **derived data product or research pipeline proposal** summary of a project that you might want to explore using NASA EOS data. Include the types of data that you would need to implement this project and how you would retrieve them. Save this summary as you will be refining and adding to your ideas over the course of the semester.  
 

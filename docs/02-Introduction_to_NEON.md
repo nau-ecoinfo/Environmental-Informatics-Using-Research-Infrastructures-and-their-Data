@@ -28,34 +28,53 @@ At the end of this activity, you will be able to:
     provided by NEON, and how they align with your own research.
 -   Pull NEON data from the API and `neonUtilities` package
     [@R-neonUtilites]
-    
+
 ### Guest Lectures
 
 #### Introduction to the National Ecological Observatory Netowrk (NEON)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/in8UWOC08HI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/in8UWOC08HI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
 
->1 hour, 6 minutes
+</iframe>
 
-*Donal O'Leary*, Research Scientist, Education and Outreach, NEON - Battelle, outlines NEON's Ten Big Ideas, talks about program funding and the Battelle takeover, and explains NEON data availability, site selection, and constraints. 
+> 1 hour, 6 minutes
+
+*Donal O'Leary*, Research Scientist, Education and Outreach, NEON -
+Battelle, outlines NEON's Ten Big Ideas, talks about program funding and
+the Battelle takeover, and explains NEON data availability, site
+selection, and constraints.
 
 #### Interfacing with NEON and its Data
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3jsmqvACBL4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3jsmqvACBL4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
 
->1 hour
+</iframe>
 
-*Donal O'Leary*, Research Scientist, Education and Outreach, NEON - Battelle, demonstrates best practices for accessing NEON data using NEON's online platform and RStudio.
+> 1 hour
+
+*Donal O'Leary*, Research Scientist, Education and Outreach, NEON -
+Battelle, demonstrates best practices for accessing NEON data using
+NEON's online platform and RStudio.
 
 ### Assignments in this Chapter
 
-- *NEON Coding Lab - TOS Vegetation Structure* Obtain a NEON API token and use to access and analyze woody plant vegetation structure from NEON's Terrestrial Observation Sampling (TOS) data using the `neonUtilities` package (2.10).
+-   [*NEON Coding Lab - TOS Vegetation
+    Structure*](#neon-coding-lab---tos-vegetation-structure)
+    Obtain a NEON API token and use to access and analyze woody plant
+    vegetation structure from NEON's Terrestrial Observation Sampling
+    (TOS) data using the `neonUtilities` package (2.10).
 
-- *NEON Written Questions* Demonstrate your knowledge of NEON's data philosophies and identify ways in which NEON data could be used in your own research (2.14.1).
+-   [*NEON Written Questions*](#neon-written-questions) Demonstrate your knowledge of NEON's data
+    philosophies and identify ways in which NEON data could be used in
+    your own research (2.14.1).
 
-- *NEON Coding Lab - Further Exploration of NEON Data* Demonstrate your mastery of NEON's data interface in `R` by accessing and analyzing NEON data that intersects with your research interests (2.14.2). 
+-   [*NEON Coding Lab - Further Exploration of NEON Data*](#neon-coding-lab---further-exploration-of-neon-data) Demonstrate
+    your mastery of NEON's data interface in `R` by accessing and
+    analyzing NEON data that intersects with your research interests
+    (2.14.2).
 
-- *Intro to NEON Culmination Activity* Summarize a research project or data product you might pursue using NEON data (2.14.3).
+-   [*Intro to NEON Culmination Activity*](#intro-to-neon-culmination-activity) Summarize a research project or
+    data product you might pursue using NEON data (2.14.3).
 
 ## The NEON Project Mission & Design
 
@@ -427,7 +446,6 @@ knitr::include_graphics("./docs/images/git_ignore.png")
 ```
 
 <img src="./docs/images/git_ignore.png" width="622" />
-
 
 Now, whenever you want to pull NEON data via the API, at the start of
 any analysis you would place this line of code:
@@ -975,7 +993,7 @@ req
 
 ```
 ## Response [https://data.neonscience.org/api/v0/products/DP1.10003.001]
-##   Date: 2023-01-27 17:02
+##   Date: 2023-01-27 19:55
 ##   Status: 200
 ##   Content-Type: application/json;charset=UTF-8
 ##   Size: 52.9 kB
@@ -2661,7 +2679,7 @@ of your data (example below)
     data? How will you address these challenges and document your code?
     *One to two paragraphs*
 
-### Exercise 2.4: Intro to NEON Culmination Activity
+### Intro to NEON Culmination Activity
 
 **Due before we start Chapter 3: USA-NPN**
 

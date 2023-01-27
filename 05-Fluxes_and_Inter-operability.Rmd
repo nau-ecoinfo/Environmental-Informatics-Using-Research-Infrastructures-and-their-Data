@@ -49,7 +49,7 @@ NEON-Battelle provides an in-depth demonstration of how to access and work with 
 
 ### Assignments in this chapter
 
--   *NEON Flux Coding Lab* Use the NEON flux workflow described in this
+-   [*NEON Flux Coding Lab*](#neon-flux-coding-lab) Use the NEON flux workflow described in this
     chapter to merge data from NEON and AmeriFlux (5.7).
 
 ## Eddy Co_variance Data: What does it actually measure?

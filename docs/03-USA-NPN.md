@@ -54,11 +54,11 @@ At the end of this activity, you will be able to:
 
 ### Assignments in this Chapter
 
-- *USA-NPN Written Questions* Identify ways in which USA-NPN's data and philosophy intersect with your research interests (3.7),
+- [*USA-NPN Written Questions*](#usa-npn-written-questions) Identify ways in which USA-NPN's data and philosophy intersect with your research interests (3.7),
 
-- *USA-NPN Coding Lab - Modeling AGGD* Explore the relationship between phenology and various environmental drivers using `rnpn` and `neonUtilities` (3.14).
+- [*USA-NPN Coding Lab - Modeling AGGD*](#usa-npn-coding-lab---modeling-aggd) Explore the relationship between phenology and various environmental drivers using `rnpn` and `neonUtilities` (3.14).
 
-- *USA-NPN Culmination Activity* Identify a research project or data product you might persue using USA-NPN data (3.18).
+- [*USA-NPN Culmination Activity*](#usa-npn-culmination-activity) Identify a research project or data product you might persue using USA-NPN data (3.18).
 
 ## USA-NPN Project Mission & Design:
 
@@ -1424,7 +1424,7 @@ add_fields <- npn_download_status_data(
 
 ## USA-NPN Exercises Part 2
 
-### Exercise 3.1: USA-NPN Coding Lab
+### USA-NPN Coding Lab - Modeling AGGD
 
 
 ```r
@@ -1939,7 +1939,7 @@ phenological forcings.
 
 ## USA-NPN Exercies Part 3
 
-### Intro to USA-NPN Culmination Activity
+### USA-NPN Culmination Activity
 
 **Note: Phenology data may not be relevant everyone. Here are a couple of suggestions:**
 
