@@ -51,7 +51,7 @@ At the end of this activity, you will be able to:
 
 - *NEON Coding Lab - TOS Vegetation Structure* Obtain a NEON API token and use to access and analyze woody plant vegetation structure from NEON's Terrestrial Observation Sampling (TOS) data using the `neonUtilities` package (2.10).
 
-- *Written Questions* Demonstrate your knowledge of NEON's data philosophies and identify ways in which NEON data could be used in your own research (2.14.1).
+- *NEON Written Questions* Demonstrate your knowledge of NEON's data philosophies and identify ways in which NEON data could be used in your own research (2.14.1).
 
 - *NEON Coding Lab - Further Exploration of NEON Data* Demonstrate your mastery of NEON's data interface in `R` by accessing and analyzing NEON data that intersects with your research interests (2.14.2). 
 
@@ -287,7 +287,7 @@ your computer.
 
 1.  **neonUtilities:** `install.packages("neonUtilities")`
 
-## Additional Resources
+### Additional Resources
 
 2.  NEON <a href="http://data.neonscience.org" target="_blank"> Data
     Portal </a>
@@ -605,7 +605,7 @@ symbols(veg$adjEasting[which(veg$plotID=="WREF_075")],
 
 ## Intro to NEON Exercises Part 1
 
-### Exercise 2.1: NEON Coding Lab - TOS Vegetation Structure
+### NEON Coding Lab - TOS Vegetation Structure
 
 #### Part 1: Sign up for and Use an NEON API Token:
 
@@ -1492,7 +1492,7 @@ look
 
 ## Intro to NEON Exercises Part 2
 
-### Exercise 2.2: Written questions
+### NEON Written questions
 
 **Suggested Timing: Complete this exercise before our next class
 meeting**
@@ -1550,7 +1550,7 @@ previous sections and answer *each* of the following questions:
 
 <div id="ds-challenge" markdown="1">
 
-### Exercise 2.3: NEON Coding Lab - Further Exploration of NEON Data
+### NEON Coding Lab - Further Exploration of NEON Data
 
 **Suggested Timing: Complete this exercise a few days before your NEON
 clumination write up**

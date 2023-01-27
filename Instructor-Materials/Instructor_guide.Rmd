@@ -1,0 +1,24 @@
+---
+title: "Introduction to Environmental Informatics Data and Tools Instructor Guide"
+author: "Katharyn Duffy, Ben Ruddell, Rohan Boone"
+date: "2023-01-26"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+LI = Lead Instructor PI = Programming Instructor TA = Teaching Assistant
+
+See the suggested syllabus and digital textbook froreferences to lecture, unit, and assignment content.
+
+Course meetings are designed based on a 3 credit-hour, semester-long course (i.e. 15 weeks with 2, 1.5 hour meetings per week). The organization of the course may be altered to reflect varying schedules.
+
+It is recommended that student questions be directed to a course chatroom (e.g. Gitter, Slack) or mailing list to reduce instructor workload by allowing students to answer eathother's questions, particularly if there is no PI or TA.
+
+###Day 1, Chapter 0-1
+
+-   LI covers introduction to Ecoinformatics and the purpose of the course, syllabus (if applicable), and course expectations (\~15 minutes).

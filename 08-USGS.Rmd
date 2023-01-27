@@ -1,7 +1,6 @@
 # USGS National Water Information System (NWIS)
 
 
-
 **United States Geological Survey's National Water Information System (NWIS)**
 
 ## Learning Objectives

@@ -442,3 +442,6 @@ wait-and-email
 putting-it-all-together-mapping-precipitation-from-tropical-storm-colin
 usgs-exercises-part-2
 usgs-nwis-culmination-write-up
+neon-coding-lab---tos-vegetation-structure
+neon-written-questions
+neon-coding-lab---further-exploration-of-neon-data
