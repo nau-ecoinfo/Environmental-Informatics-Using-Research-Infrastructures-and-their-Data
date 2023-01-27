@@ -61,4 +61,68 @@ It is recommended that student questions be directed to a course chat-room (e.g.
 ### Day 3, Chapter 2
 
 - PI introduces 'best practices' for taking live coding notes and git ignore (\~ 10 minutes).
-  - The recorded lecture below and many that follow include a coding demonstration ([2.8 Hands On: NEON TOS Data]())
+  - The recorded lecture below and many that follow include a coding demonstration ([2.8 Hands On: NEON TOS Data](https://nau-ecoinfo.github.io/INF550-textbook/introduction-to-neon-its-data.html#hands-on-neon-tos-data)).
+  Students should be advised to code along with Donal in the recorded lecture. Remind students to download `R` packages necessary for the exercise (see first few code chunks in 2.8)
+  
+- **Guest Lecture**: [Donal O'Leary - Interfacing with NEON and its Data](https://nau-ecoinfo.github.io/INF550-textbook/introduction-to-neon-its-data.html#interfacing-with-neon-and-its-data)
+  - Donal O???Leary, Research Scientist, Education and Outreach, NEON - Battelle, demonstrates best practices for accessing NEON data using NEON???s online platform and RStudio.
+  - The video is \~ 1 hour, but may be paused to give students time to code along.
+
+- PI or LI walks through [NEON Coding Lab - TOS Vegetation Structure](https://nau-ecoinfo.github.io/INF550-textbook/introduction-to-neon-its-data.html#neon-coding-lab---tos-vegetation-structure) with the class (remaining time).
+  - This exercise consists of two parts: first students submit an .Rmd and .pdf of a scupt that proves that they have a NEON API token, then they will complete a coding lab using NEON TOS data.
+  
+### Day 4, Chapter 2
+
+- LI checks in with students, cirlces up on expectations (\~ 5 minutes).
+
+- PI or LI reviews [NEON Coding Lab - TOS Vegetation Structure](https://nau-ecoinfo.github.io/INF550-textbook/introduction-to-neon-its-data.html#neon-coding-lab---tos-vegetation-structure).
+
+- PI or LI: [2.11 What is an API](https://nau-ecoinfo.github.io/INF550-textbook/introduction-to-neon-its-data.html#what-is-an-api)
+
+- Discussion Topics:
+
+  - Why are APIs important?
+  
+  - What was life like before APIs?
+  
+  - When should you use an API versus pulling the data locally? Why would each strategy be important?
+  
+  - What is a JSON and why would NEON use it to wrap data from their API?
+  
+  - The commonality of API pulls despite the data retrieved
+  
+- PI lectures through stacking NEON data
+
+- Remaining time: go over [NEON Written Questions](https://nau-ecoinfo.github.io/INF550-textbook/introduction-to-neon-its-data.html#neon-written-questions) and [NEON Coding Lab - Further Exploration of NEON Data](https://nau-ecoinfo.github.io/INF550-textbook/introduction-to-neon-its-data.html#neon-coding-lab---further-exploration-of-neon-data)
+
+### Day 5, Chapter 2
+
+- PI: History of 'levels' of observations in NEON 
+
+  - What made the cut, what didn't, and why?
+  
+- Class discussion:
+
+  - What NEON data products interest you? Why?
+  
+  - What data do you think is 'missing' from NEON? What other data could you bring in?
+  
+  - If time permits, ask each student to give their #1 product and #1 missing product. 
+    
+    - Ask students to consider combining those two into a new derived data product.
+  
+- LI: [NEON Culmination Activity](https://nau-ecoinfo.github.io/INF550-textbook/introduction-to-neon-its-data.html#intro-to-neon-culmination-activity) goals and expectations
+
+### Day 6, Chapter 3
+
+- LI: Introduction to USA-NPN and the power of citizen science (\~ 5 minutes).
+
+  - Even if some not interested in phenology, we are covering this network and this type of data because it has unique challenges and opportunities. This type of citizen science data extends to other disciplines.
+  
+- **Guest Lecture**: [Theresa Crimmins - Introduction to the USA National Phenology Network](https://nau-ecoinfo.github.io/INF550-textbook/introduction-to-usa-npn-its-data.html#introduction-to-the-usa-national-phenology-network)
+
+  - Theresa Crimmins, USA-NPN director, introduces the USA National Phenology Network, describes the platform???s citizen science approach to gathering data, and explains how to access USA-NPN data (1 hour, 6 minutes).
+  
+- LI or PI: Q&A about USA-NPN (remaining time)
+
+
