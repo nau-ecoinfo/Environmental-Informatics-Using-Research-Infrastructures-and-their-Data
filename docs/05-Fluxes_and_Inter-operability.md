@@ -1638,7 +1638,7 @@ pr <- loadByProduct("DP1.00024.001", site="NIWO", avg=30,
 ## Merged the most recent publication of sensor position files for each site and saved to /stackedFiles
 ## Copied the most recent publication of variable definition file to /stackedFiles
 ## Finished: Stacked 1 data tables and 3 metadata tables!
-## Stacking took 0.310096 secs
+## Stacking took 0.3120358 secs
 ```
 
 `pr` is another named list, and again, metadata and units can be found
@@ -5582,8 +5582,12 @@ devtools::install_github(repo="NEONScience/NEON-IS-data-processing",
 ```
 
 ```
-## Skipping install of 'NEONprocIS.base' from a github remote, the SHA1 (99842ec9) has not changed since last install.
-##   Use `force = TRUE` to force installation
+## Downloading GitHub repo NEONScience/NEON-IS-data-processing@master
+```
+
+```
+## Error in utils::download.file(url, path, method = method, quiet = quiet,  : 
+##   download from 'https://api.github.com/repos/NEONScience/NEON-IS-data-processing/tarball/master' failed
 ```
 
 ```r
@@ -5872,21 +5876,21 @@ Download and extract data
 ## Downloading files totaling approximately 83.333588 MB
 ## Downloading 1 files
 ##   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-## 1 files successfully downloaded to C:\Users\rohan\AppData\Local\Temp\RtmpSiNY6n/filesToStack00200
+## 1 files successfully downloaded to C:\Users\rohan\AppData\Local\Temp\Rtmp8okiD8/filesToStack00200
 ## Finding available files
 ##   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
 ## 
 ## Downloading files totaling approximately 68.719186 MB
 ## Downloading 1 files
 ##   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-## 1 files successfully downloaded to C:\Users\rohan\AppData\Local\Temp\RtmpSiNY6n/filesToStack00200
+## 1 files successfully downloaded to C:\Users\rohan\AppData\Local\Temp\Rtmp8okiD8/filesToStack00200
 ## Finding available files
 ##   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
 ## 
 ## Downloading files totaling approximately 69.960912 MB
 ## Downloading 1 files
 ##   |                                                                              |                                                                      |   0%  |                                                                              |======================================================================| 100%
-## 1 files successfully downloaded to C:\Users\rohan\AppData\Local\Temp\RtmpSiNY6n/filesToStack00200
+## 1 files successfully downloaded to C:\Users\rohan\AppData\Local\Temp\Rtmp8okiD8/filesToStack00200
 ```
 
 Add names to list for year/month combinations
@@ -6038,8 +6042,8 @@ memory
 
 ```
 ##            used  (Mb) gc trigger  (Mb) max used  (Mb)
-## Ncells  1494506  79.9    3173530 169.5  3173530 169.5
-## Vcells 16220595 123.8   72272735 551.4 75217313 573.9
+## Ncells  1495176  79.9    3173321 169.5  3173321 169.5
+## Vcells 16222079 123.8   72272739 551.4 75217297 573.9
 ```
 
 Regularize timeseries to 30 minutes in case timestamps are missing from
@@ -6312,8 +6316,8 @@ Clean up environment
 
 ```
 ##            used  (Mb) gc trigger  (Mb) max used  (Mb)
-## Ncells  1496962  80.0    3173530 169.5  3173530 169.5
-## Vcells 16294738 124.4   57818188 441.2 75217313 573.9
+## Ncells  1497632  80.0    3173321 169.5  3173321 169.5
+## Vcells 16296222 124.4   57818192 441.2 75217297 573.9
 ```
 
 

@@ -52,7 +52,7 @@ option-2-save-your-toekn-to-your-r-environment
 hands-on-neon-tos-data
 pull-in-tree-data-from-neons-tos-and-investigate-relationships
 intro-to-neon-exercises-part-1
-exercise-2.1-neon-coding-lab---tos-vegetation-structure
+neon-coding-lab---tos-vegetation-structure
 part-1-sign-up-for-and-use-an-neon-api-token
 part-2-further-investigation-of-neon-tos-vegetation-structure-data
 hands-on-pulling-neon-data-via-the-api
@@ -75,8 +75,8 @@ querying-a-single-named-location
 taxonomy
 stacking-neon-data
 intro-to-neon-exercises-part-2
-exercise-2.2-written-questions
-exercise-2.3-neon-coding-lab---further-exploration-of-neon-data
+neon-written-questions
+neon-coding-lab---further-exploration-of-neon-data
 exercise-2.4-intro-to-neon-culmination-activity
 introduction-to-usa-npn-its-data
 learning-objectives-1
@@ -442,6 +442,3 @@ wait-and-email
 putting-it-all-together-mapping-precipitation-from-tropical-storm-colin
 usgs-exercises-part-2
 usgs-nwis-culmination-write-up
-neon-coding-lab---tos-vegetation-structure
-neon-written-questions
-neon-coding-lab---further-exploration-of-neon-data

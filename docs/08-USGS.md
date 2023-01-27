@@ -1,7 +1,6 @@
 # USGS National Water Information System (NWIS)
 
 
-
 **United States Geological Survey's National Water Information System (NWIS)**
 
 ## Learning Objectives
@@ -399,10 +398,10 @@ names(wqpcounts_sc)
 ## [17] "x-content-type-options"    "x-xss-protection"         
 ## [19] "strict-transport-security" "x-cache"                  
 ## [21] "via"                       "x-amz-cf-pop"             
-## [23] "x-amz-cf-id"               "age"
+## [23] "x-amz-cf-id"
 ```
 
-This returns a list with 24 different items, including total number of sites, breakdown of the number of sites by source (BioData, NWIS, STORET), total number of records, and breakdown of records count by source. Let's just look at total number of sites and total number of records.
+This returns a list with 23 different items, including total number of sites, breakdown of the number of sites by source (BioData, NWIS, STORET), total number of records, and breakdown of records count by source. Let's just look at total number of sites and total number of records.
 
 
 ```r
@@ -410,7 +409,7 @@ wqpcounts_sc[['total-site-count']]
 ```
 
 ```
-## [1] 7593
+## [1] 7594
 ```
 
 ```r
@@ -418,10 +417,10 @@ wqpcounts_sc[['total-result-count']]
 ```
 
 ```
-## [1] 4024244
+## [1] 4027468
 ```
 
-This doesn't provide any information about the sites, just the total number. I know that with 4,024,244 results, I will want to add more criteria before trying to download. Let's continue to add query parameters before moving to `whatWQPsites`.
+This doesn't provide any information about the sites, just the total number. I know that with 4,027,468 results, I will want to add more criteria before trying to download. Let's continue to add query parameters before moving to `whatWQPsites`.
 
 
 ```r
@@ -440,10 +439,10 @@ wqpcounts_sc_stream[['total-result-count']]
 ```
 
 ```
-## [1] 2013151
+## [1] 2013176
 ```
 
-2,013,151 results are still a lot to download. Let's add more levels of criteria:
+2,013,176 results are still a lot to download. Let's add more levels of criteria:
 
 
 ```r
@@ -464,10 +463,10 @@ wqpcounts_sc_stream_temp[['total-result-count']]
 ```
 
 ```
-## [1] 148494
+## [1] 148495
 ```
 
-148,494 is little more manageble. We can also easily compare avilable stream temperature and lake temperature data.
+148,495 is little more manageble. We can also easily compare avilable stream temperature and lake temperature data.
 
 
 ```r
@@ -489,7 +488,7 @@ wqpcounts_sc_lake_temp[['total-site-count']]
 ```
 
 ```
-## [1] 712
+## [1] 643
 ```
 
 ```r
@@ -498,7 +497,7 @@ wqpcounts_sc_stream_temp[['total-result-count']]
 ```
 
 ```
-## [1] 148494
+## [1] 148495
 ```
 
 ```r
@@ -506,7 +505,7 @@ wqpcounts_sc_lake_temp[['total-result-count']]
 ```
 
 ```
-## [1] 60954
+## [1] 53241
 ```
 
 From these query results, it looks like South Carolina has much more stream data than it does lake data.
@@ -723,7 +722,7 @@ head(MauiCo_avgdailyQ)
 
 ```
 ##   agency_cd  site_no   dateTime X_00060_00003 X_00060_00003_cd tz_cd
-## 1      USGS 16400000 2023-01-23           3.1                P   UTC
+## 1      USGS 16400000 2023-01-26         154.0                P   UTC
 ## 2      USGS 16401000 1929-08-31          18.0                A   UTC
 ## 3      USGS 16402000 1957-07-31          51.0                A   UTC
 ## 4      USGS 16403000 1957-06-30           5.5                A   UTC
@@ -764,7 +763,7 @@ head(MauiHUC8_mindailyT)
 ## 3      USGS 16520000 2004-04-14          17.5                A   UTC
 ## 4      USGS 16527000 2004-01-13          15.4                A   UTC
 ## 5      USGS 16555000 2004-01-13          16.4                A   UTC
-## 6      USGS 16618000 2023-01-23          18.4                P   UTC
+## 6      USGS 16618000 2023-01-26          17.7                P   UTC
 ```
 
 ```r
@@ -2319,7 +2318,7 @@ query(DelBay_fabric, "times")
 ```
 
 ```
-## [1] "2023-01-16 UTC" "2023-01-26 UTC"
+## [1] "2023-01-19 UTC" "2023-01-29 UTC"
 ```
 
 The first example we've included here uses aggregated data, meaning there is a single URL for all the data of this type on the server. Some data that you encounter might be non-aggregated, meaning there are multiple URLs to access the same data. In these cases, you will need to create more than one geojob and join data at the end.
@@ -2363,7 +2362,7 @@ length(default_geoms)
 ```
 
 ```
-## [1] 38
+## [1] 54
 ```
 
 ```r
@@ -2626,7 +2625,7 @@ check(evap_geojob)
 ## [1] "Process successful"
 ## 
 ## $URL
-## [1] "https://labs.waterdata.usgs.gov:443/gdp-process-wps/RetrieveResultServlet?id=abd8e9d4-46bf-4cbe-bcbc-8c44857fe5bdOUTPUT"
+## [1] "https://labs.waterdata.usgs.gov:443/gdp-process-wps/RetrieveResultServlet?id=d26ec2cb-e815-488d-9602-b49e650c606aOUTPUT"
 ## 
 ## $statusType
 ## [1] "ProcessSucceeded"

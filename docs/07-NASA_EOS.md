@@ -319,8 +319,8 @@ prettify(token_response)                                       # Print the prett
 ```
 ## {
 ##     "token_type": "Bearer",
-##     "token": "qeki7a5xhQuQfUDfEYONvfXAqNwwr-Hded182R69mmIprJHHXga2gYdC5sJ6jmsdZ2iQy5GiWAMtM47xNBBhVw",
-##     "expiration": "2023-01-26T20:51:25Z"
+##     "token": "e9KeouYV_8FT3XRspHa-7DIu5gEHMjyxqwtTjQU6zluWhym_xDdXCcLOby9CfcIB_obKiY2jjBgnBd8ww1zPsg",
+##     "expiration": "2023-01-29T17:34:15Z"
 ## }
 ## 
 ```
@@ -357,7 +357,7 @@ sprintf("AppEEARS currently supports %i products." ,length(products))
 ```
 
 ```
-## [1] "AppEEARS currently supports 165 products."
+## [1] "AppEEARS currently supports 164 products."
 ```
 
 Next, look at the product's names and descriptions. Below, the 'ProductAndVersion' and 'Description' are printed for all products.
@@ -533,7 +533,6 @@ for (p in products){
 ## [1] "ECO_L1B_GEO.002 is Geolocation from LP DAAC"
 ## [1] "ECO_L2_CLOUD.002 is Cloud Mask Instantaneous from LP DAAC"
 ## [1] "ECO_L2_LSTE.002 is Swath Land Surface Temperature and Emissivity Instantaneous from LP DAAC"
-## [1] "ECO_L2T_LSTE.002 is Land Surface Temperature and Emissivity from LP DAAC"
 ## [1] "HLSS30.020 is Land Surface Reflectance from LP DAAC"
 ## [1] "HLSL30.020 is Land Surface Reflectance from LP DAAC"
 ```
@@ -1660,8 +1659,8 @@ prettify(token_response)                                       # Print the prett
 ```
 ## {
 ##     "token_type": "Bearer",
-##     "token": "qeki7a5xhQuQfUDfEYONvfXAqNwwr-Hded182R69mmIprJHHXga2gYdC5sJ6jmsdZ2iQy5GiWAMtM47xNBBhVw",
-##     "expiration": "2023-01-26T20:51:25Z"
+##     "token": "e9KeouYV_8FT3XRspHa-7DIu5gEHMjyxqwtTjQU6zluWhym_xDdXCcLOby9CfcIB_obKiY2jjBgnBd8ww1zPsg",
+##     "expiration": "2023-01-29T17:34:15Z"
 ## }
 ## 
 ```
